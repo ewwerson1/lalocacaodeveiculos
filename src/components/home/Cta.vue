@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import bgImg from '../../assets/images/bg-cta.png'
+import bgImg from '@/assets/images/bg-cta.png'
 </script>
 
 <style>

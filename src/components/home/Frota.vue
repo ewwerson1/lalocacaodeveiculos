@@ -103,11 +103,11 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue"
-import bgFrota from "../../assets/images/bg-frota.png"
-import Carro1 from "../../assets/images/carro1.png"
-import Carro2 from "../../assets/images/carro2.png"
-import Carro3 from "../../assets/images/carro3.png"
-import Carro4 from "../../assets/images/carro4.png"
+import bgFrota from "@/assets/images/bg-frota.png"
+import Carro1 from "@/assets/images/carro1.png"
+import Carro2 from "@/assets/images/carro2.png"
+import Carro3 from "@/assets/images/carro3.png"
+import Carro4 from "@/assets/images/carro4.png"
 
 const cars = [
   { category: "Econômico", name: "Fiat Uno", price: "R$ 120", image: Carro1 },

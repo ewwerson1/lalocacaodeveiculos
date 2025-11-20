@@ -67,11 +67,11 @@
 
 <script setup>
 import { ref } from 'vue'
-import Passo1 from '../../assets/images/passo1.png'
-import Passo2 from '../../assets/images/passo2.png'
-import Passo3 from '../../assets/images/passo3.png'
-import Passo4 from '../../assets/images/passo4.png'
-import Background from '../../assets/images/bg-passo-passo.png'
+import Passo1 from '@/assets/images/passo1.png'
+import Passo2 from '@/assets/images/passo2.png'
+import Passo3 from '@/assets/images/passo3.png'
+import Passo4 from '@/assets/images/passo4.png'
+import Background from '@/assets/images/bg-passo-passo.png'
 
 const steps = [
   {

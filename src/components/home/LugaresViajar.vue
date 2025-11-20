@@ -72,8 +72,8 @@
 <script setup>
 import { ref } from "vue"
 import "@fortawesome/fontawesome-free/css/all.css"
-import Rio from '../../assets/images/rio.webp'
-import Paraiba from '../../assets/images/joao-pessoa.jpg'
+import Rio from '@/assets/images/rio.webp'
+import Paraiba from '@/assets/images/joao-pessoa.jpg'
 const carousel = ref(null)
 
 const cards = [
