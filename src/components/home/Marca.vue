@@ -2,10 +2,12 @@
   <section class="w-full py-16 bg-white text-text-700">
     <div class="max-w-7xl mx-auto px-6">
 
-      <h2 class="text-4xl md:text-2xl font-extrabold text-center mb-10">
+      <h2 class="text-4xl md:text-xl font-semibold text-center">
         Encontre seu carro pela marca
       </h2>
-
+        <p class="text-center text-gray-600 mb-10 text-sm mt-2">
+          Mais do que alugar carros, nós cuidamos do seu caminho.
+        </p>
       <div class="relative bg-yellow-400/90 rounded-2xl py-6">
 
         <!-- Botões só aparecem no DESKTOP -->

@@ -1,23 +1,25 @@
 <script setup>
   import Hero from '../components/home/Hero.vue';
+  import Busca from '../components/home/Busca.vue';
   import Frota from '../components/home/Frota.vue';
   import Beneficios from '../components/home/Beneficios.vue';
-  import Marcas from '../components/home/Marca.vue';
-  import LugaresViajar from '../components/home/LugaresViajar.vue';
+  import Depoimentos from '../components/home/Depoimentos.vue';
+  import Locais from '../components/home/Locais.vue';
+  import Sobre from '../components/home/Sobre.vue';
+  import SejaInvestidor from '../components/home/SejaInvestidor.vue';
   import PassoaPasso from '../components/home/PassoaPasso.vue'
   import Cta from '../components/home/Cta.vue';
 </script>
 
 <template>
   <main>
-    <div class="pt-10 bg-[#006931]">
+    <div class="">
        <Hero/>
     </div>
-
+    <Busca/>
     <Frota/>
-    <Marcas/>
-    <PassoaPasso class=" bg-green-600/80"/>
-    <LugaresViajar/>
-    <Cta/>
+
+    <PassoaPasso />
+  
   </main>
 </template>
