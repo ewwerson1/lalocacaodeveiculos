@@ -72,7 +72,7 @@ import {
 } from 'lucide-vue-next'
 
 // Importação da imagem de fundo
-import bgCta from '../../assets/images/bg-cta.png'
+import bgCta from '@/assets/images/bg-cta.png'
 
 const beneficios = [
   {

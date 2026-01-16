@@ -102,7 +102,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 // Importação correta do Asset para o Vite reconhecer
-import bgFrota from '../../assets/images/bg-frota.png'
+import bgFrota from '@/assets/images/bg-frota.png'
 
 const categoriaAtiva = ref('Todos')
 const categorias = ['Todos', 'Econômico', 'Sedan', 'SUV', 'Premium']
