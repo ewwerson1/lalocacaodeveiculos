@@ -4,7 +4,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center mb-16 pb-12 border-b border-white/5 gap-8">
         <div class="flex flex-col items-center md:items-start">
-          <img src="../assets/icons/logo-normal.png" alt="logo" class="w-24">
+          <img src="../assets/icons/logo-normal.png" alt="logo" class="w-32">
         </div>
 
         <div class="flex gap-6">
