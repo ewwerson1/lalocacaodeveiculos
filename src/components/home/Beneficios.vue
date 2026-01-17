@@ -42,21 +42,32 @@
           <div class="absolute bottom-0 left-0 h-1 w-0 bg-gradient-to-r from-emerald-500 to-lime-400 group-hover:w-full transition-all duration-500"></div>
         </div>
       </div>
+<div class="mt-16 relative flex flex-col md:flex-row items-center justify-between p-8 md:p-12 bg-black rounded-[2.5rem] text-white overflow-hidden shadow-2xl">
 
-      <div class="mt-16 flex flex-col md:flex-row items-center justify-between p-8 md:p-12 bg-black rounded-[2.5rem] text-white relative overflow-hidden shadow-2xl">
-        <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 blur-[80px] -z-0"></div>
+  <!-- IMAGEM DE FUNDO -->
+  <img
+    src="../../assets/images/ticket.png"
+    alt="Ticket"
+    class="absolute inset-0 w-full h-full object-cover opacity-70"
+  />
 
-        <div class="relative z-10 text-center md:text-left">
-          <p class="text-xl md:text-2xl font-bold mb-4 md:mb-0 uppercase italic tracking-wide">
-            Pronto para <span class="text-emerald-400 font-black">pegar a estrada?</span>
-          </p>
-          <p class="text-gray-400 text-sm font-medium mt-1">Reserve seu veículo em menos de 60 segundos.</p>
-        </div>
+  <!-- GLOW -->
+  <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 blur-[80px]"></div>
 
-        <button class="relative z-10 w-full md:w-auto mt-6 md:mt-0 bg-emerald-500 hover:bg-white text-black px-10 py-4 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-xs tracking-[0.2em] shadow-xl shadow-emerald-500/40">
-          Alugar agora
-        </button>
-      </div>
+  <!-- TEXTO -->
+  <div class="relative z-10 text-center md:text-left px-4">
+    <p class="text-xl md:text-2xl font-bold mb-2 uppercase italic tracking-wide">
+      Pronto para <span class="text-emerald-400 font-black">pegar a estrada?</span>
+    </p>
+    <p class="text-gray-300 text-sm font-medium">Reserve seu veículo em menos de 60 segundos.</p>
+  </div>
+
+  <!-- BOTÃO -->
+  <button class="relative z-10 w-full md:w-auto mt-6 md:mt-0 bg-emerald-500 hover:bg-white text-black px-10 py-4 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-xs tracking-[0.2em] shadow-xl shadow-emerald-500/40">
+    Alugar agora
+  </button>
+</div>
+
     </div>
   </section>
 </template>
@@ -71,46 +82,20 @@ import {
   ShieldCheck
 } from 'lucide-vue-next'
 
-// Importação da imagem de fundo
-import bgCta from '@/assets/images/bg-cta.png'
+import bgCta from '../../assets/images/bg-cta.png'
 
 const beneficios = [
-  {
-    icon: Zap,
-    titulo: 'Sem Burocracia',
-    desc: 'Processo 100% digital. Nada de papelada ou espera infinita. Reserve em menos de 2 minutos.'
-  },
-  {
-    icon: PlaneTakeoff,
-    titulo: 'No Aeroporto',
-    desc: 'Seu tempo é precioso. Entregamos o carro no desembarque para você sair dirigindo imediatamente.'
-  },
-  {
-    icon: Infinity,
-    titulo: 'Km Livre',
-    desc: 'Não conte os quilômetros, conte as memórias. Viaje sem limites e sem taxas surpresas.'
-  },
-  {
-    icon: Headphones,
-    titulo: 'Suporte 24h',
-    desc: 'Nossa central de emergência está pronta para te atender em qualquer lugar, a qualquer hora.'
-  },
-  {
-    icon: CalendarClock,
-    titulo: 'Mensalistas',
-    desc: 'Tarifas especiais e suporte premium para quem precisa de um carro por 30 dias ou mais.'
-  },
-  {
-    icon: ShieldCheck,
-    titulo: 'Seguro Total',
-    desc: 'Proteção completa contra colisões, roubos e danos a terceiros. Sua paz de espírito é nossa prioridade.'
-  }
+  { icon: Zap, titulo: 'Sem Burocracia', desc: 'Processo 100% digital. Nada de papelada ou espera infinita. Reserve em menos de 2 minutos.' },
+  { icon: PlaneTakeoff, titulo: 'No Aeroporto', desc: 'Seu tempo é precioso. Entregamos o carro no desembarque para você sair dirigindo imediatamente.' },
+  { icon: Infinity, titulo: 'Km Livre', desc: 'Não conte os quilômetros, conte as memórias. Viaje sem limites e sem taxas surpresas.' },
+  { icon: Headphones, titulo: 'Suporte 24h', desc: 'Nossa central de emergência está pronta para te atender em qualquer lugar, a qualquer hora.' },
+  { icon: CalendarClock, titulo: 'Mensalistas', desc: 'Tarifas especiais e suporte premium para quem precisa de um carro por 30 dias ou mais.' },
+  { icon: ShieldCheck, titulo: 'Seguro Total', desc: 'Proteção completa contra colisões, roubos e danos a terceiros. Sua paz de espírito é nossa prioridade.' }
 ]
 </script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-
 section {
   font-family: 'Inter', sans-serif;
 }

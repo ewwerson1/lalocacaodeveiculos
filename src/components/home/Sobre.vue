@@ -15,7 +15,7 @@
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 
             <div class="absolute bottom-8 left-8 bg-yellow-400 p-6 rounded-2xl shadow-xl rotate-[-4deg]">
-              <span class="block text-4xl font-black text-black leading-none">10+</span>
+              <span class="block text-4xl font-black text-black leading-none">3+</span>
               <span class="text-[10px] font-black uppercase text-black tracking-tighter">Anos de Estrada</span>
             </div>
           </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="group">
               <div class="flex items-baseline gap-1">
-                <span class="text-4xl font-black text-black group-hover:text-yellow-500 transition-colors">500</span>
+                <span class="text-4xl font-black text-black group-hover:text-yellow-500 transition-colors">100</span>
                 <span class="text-yellow-500 font-black text-2xl">+</span>
               </div>
               <p class="text-[10px] font-black uppercase tracking-widest text-gray-400 mt-2">Veículos na frota</p>

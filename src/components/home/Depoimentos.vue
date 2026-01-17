@@ -1,10 +1,10 @@
 <template>
-  <section class="py-24 bg-white overflow-hidden font-sans">
+  <section class="py-24 bg-gray-100 overflow-hidden font-sans">
     <div class="container mx-auto px-4 relative">
 
       <div class="text-center mb-20">
         <span class="bg-emerald-500 text-black px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.3em]">
-          Social Proof
+          Prova social
         </span>
         <h2 class="text-4xl md:text-6xl font-black text-black uppercase mt-6 tracking-tighter italic">
           Aprovado por <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-500">Milhares</span>
