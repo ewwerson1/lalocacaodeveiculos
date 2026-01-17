@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 gap-6">
         <div
           v-for="local in locais"
           :key="local.bairro"
@@ -70,8 +70,6 @@
 <script setup>
 const locais = [
   { cidade: 'Aracaju', bairro: 'Aeroporto Santa Maria' },
-  { cidade: 'Aracaju', bairro: 'Orla de Atalaia' },
-  { cidade: 'Aracaju', bairro: 'Centro / Shopping Riomar' }
 ]
 </script>
 

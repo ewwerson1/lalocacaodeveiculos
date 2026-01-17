@@ -7,7 +7,7 @@
            style="background-image: radial-gradient(#10b981 1px, transparent 1px); background-size: 40px 40px;"></div>
     </div>
 
-    <div class="container mx-auto px-4 relative z-10 pt-20 md:pt-0">
+    <div class="container mx-auto px-4 relative z-10 md:pt-20 pt-32 md:pt-0">
       <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
         <div class="w-full lg:w-1/2 text-center lg:text-left">
           <div class="inline-flex items-center gap-2 bg-emerald-500/5 border border-emerald-500/20 px-4 py-2 rounded-full mb-8 animate-fade-in">
