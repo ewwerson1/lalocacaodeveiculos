@@ -4,10 +4,7 @@
 
       <div class="flex flex-col md:flex-row justify-between items-center mb-16 pb-12 border-b border-white/5 gap-8">
         <div class="flex flex-col items-center md:items-start">
-          <h2 class="text-3xl font-black tracking-tighter italic">
-            LA <span class="text-yellow-400">VEÍCULOS</span>
-          </h2>
-          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-[0.5em] mt-2">Premium Mobility Solutions</p>
+          <img src="../assets/icons/logo-normal.png" alt="logo" class="w-24">
         </div>
 
         <div class="flex gap-6">
@@ -21,7 +18,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
 
         <div>
-          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-yellow-400 mb-6">Aluguel</h3>
+          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-green-400 mb-6">Aluguel</h3>
           <ul class="space-y-4">
             <li v-for="link in ['Loja mais próxima', 'Grupos de Veículos', 'Diferenciais LA']" :key="link"
                 class="text-gray-400 hover:text-white transition-colors cursor-pointer text-sm font-medium">
@@ -31,7 +28,7 @@
         </div>
 
         <div>
-          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-yellow-400 mb-6">A Companhia</h3>
+          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-green-400 mb-6">A Companhia</h3>
           <ul class="space-y-4">
             <li v-for="link in ['Sobre nós', 'Relação com Investidores', 'Trabalhe Conosco', 'Privacidade']" :key="link"
                 class="text-gray-400 hover:text-white transition-colors cursor-pointer text-sm font-medium">
@@ -41,7 +38,7 @@
         </div>
 
         <div>
-          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-yellow-400 mb-6">Suporte</h3>
+          <h3 class="text-xs font-black uppercase tracking-[0.2em] text-green-400 mb-6">Suporte</h3>
           <ul class="space-y-4 mb-6">
             <li v-for="link in ['Perguntas Frequentes', 'Canais de Atendimento', 'Ouvidoria']" :key="link"
                 class="text-gray-400 hover:text-white transition-colors cursor-pointer text-sm font-medium">
@@ -59,7 +56,7 @@
           <div class="space-y-6">
             <div>
               <span class="block text-[10px] font-bold text-gray-500 uppercase mb-1">Reservas</span>
-              <a href="tel:08006121121" class="text-lg font-black text-yellow-400 hover:underline tracking-tighter">0800 6 121 121</a>
+              <a href="tel:08006121121" class="text-lg font-black text-green-400 hover:underline tracking-tighter">0800 6 121 121</a>
             </div>
 
             <div>
@@ -80,7 +77,7 @@
 
       <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <p class="text-[10px] text-gray-600 font-bold uppercase tracking-widest">
-          © 2024 LA VEÍCULOS LTDA - 00.000.000/0001-00
+          © 2026 LA VEÍCULOS LTDA - 00.000.000/0001-00
         </p>
         <div class="flex gap-8">
           <img src="https://img.icons8.com/color/48/visa.png" class="h-6 opacity-50 grayscale hover:grayscale-0 transition-all" alt="Visa">
