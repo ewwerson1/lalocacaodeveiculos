@@ -50,10 +50,6 @@
             class="relative z-10 w-full h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.8)] transform -rotate-2 hover:rotate-0 transition-transform duration-1000"
           >
 
-          <div class="absolute top-0 right-0 bg-black/80 backdrop-blur-md border border-amber-500/30 p-4 rounded-2xl z-20 hidden md:block">
-            <span class="block text-amber-500 font-black text-xl">Faturamento VIP</span>
-            <span class="text-[9px] text-gray-400 uppercase font-bold tracking-widest">Suporte Sergipe</span>
-          </div>
         </div>
 
       </div>

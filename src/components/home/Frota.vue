@@ -23,7 +23,7 @@
           <div class="w-12 h-12 bg-green-700 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
           </div>
-          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Planos Semanais</h3>
+          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Planos Trimestrais</h3>
           <div class="space-y-4">
             <div class="flex justify-between items-end border-b border-slate-200 pb-4">
               <span class="text-slate-400 text-xs font-bold uppercase">A partir de</span>
@@ -76,7 +76,7 @@
             </li>
             <li class="text-slate-600 text-xs flex items-start gap-3">
               <span class="font-black text-green-700">03</span>
-              <span class="font-bold">Taxa de pneus fixa: R$ 25,00/semana.</span>
+              <span class="font-bold">Suporte 24 horas</span>
             </li>
           </ul>
         </div>
@@ -108,7 +108,7 @@
         <div class="w-px h-8 bg-slate-200 hidden md:block"></div>
         <div class="flex flex-col items-center gap-1 text-center">
           <span class="text-amber-600 text-[10px] font-black uppercase tracking-[0.2em]">Sua Responsabilidade</span>
-          <span class="text-slate-900 text-xs font-black uppercase tracking-tight">Óleo, Filtros e Acessórios</span>
+          <span class="text-slate-900 text-xs font-black uppercase tracking-tight">Óleo, Filtros, Acessórios e Taxa de pneus fixa: R$ 25,00/semana.</span>
         </div>
       </div>
 

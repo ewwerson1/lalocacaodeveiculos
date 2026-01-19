@@ -16,13 +16,10 @@
     <div class="">
        <Hero/>
     </div>
-    
     <Frota/>
     <PassoaPasso />
     <Beneficios/>
     <Depoimentos/>
-
-
-    <Cta/>
+    <Sobre/>
   </main>
 </template>

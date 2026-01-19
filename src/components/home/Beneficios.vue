@@ -56,7 +56,7 @@
 
         <div class="text-center md:text-left">
             <h4 class="text-2xl md:text-3xl font-bold mb-2 uppercase italic tracking-tight text-white">
-                Pronto para <span class="text-emerald-400 font-black">faturar mais?</span>
+                Pronto para <span class="text-green-500 font-black">faturar mais?</span>
             </h4>
 
             <p class="text-zinc-500 text-xs font-black uppercase tracking-[0.3em] mb-6">
@@ -65,15 +65,15 @@
 
             <div class="mt-4 p-3 border-l-4 border-emerald-400 bg-zinc-900/80 backdrop-blur-sm">
                 <p class="text-white text-sm font-bold uppercase">
-                    Reserve sua prioridade por <span class="text-emerald-400">R$ 250</span>
+                    Reserve sua prioridade por <span class="text-green-600">R$ 250,00.</span>
                 </p>
                 <p class="text-zinc-400 text-xs mt-1">
-                    O valor é abatido no aluguel: na retirada, você só paga o restante.
+                    O valor é abatido no aluguel. Na retirada, pague apenas a diferença.
                 </p>
             </div>
         </div>
 
-        <button class="w-full md:w-auto bg-emerald-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
+        <button class="w-full md:w-auto bg-green-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
             Reservar Veículo Agora
         </button>
 
@@ -118,7 +118,7 @@ const diferenciaisMotorista = [
   },
   {
     icon: Clock,
-    titulo: 'Vistorias Agendadas',
+    titulo: 'Vistorias Semanais',
     desc: 'Checkups semanais rápidos para garantir sua segurança. Qualidade de frota que reflete na sua nota nos apps.'
   },
   {

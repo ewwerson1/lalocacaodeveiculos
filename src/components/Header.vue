@@ -59,10 +59,12 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const isScrolled = ref(false)
 
 const navLinks = [
-  { label: 'Frota', href: '#frota' },
+  { label: 'Área do motorista', href: '#motorista' },
   { label: 'Como Funciona', href: '#como-funciona' },
+  { label: 'Benefícios', href: '#beneficios' },
+  { label: 'Depoimentos', href: '#depoimentos' },
+  { label: 'seja um investidor', href: '#sejainvestidor' },
   { label: 'Sobre', href: '#sobre' },
-  { label: 'Contato', href: '#contato' }
 ]
 
 const updateScroll = () => {
