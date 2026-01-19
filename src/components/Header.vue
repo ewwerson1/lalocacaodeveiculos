@@ -8,7 +8,7 @@
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center">
 
-      <div><img src="@/assets/icons/logo-normal.png" alt="Logo" class="w-20"></div>
+      <div><img src="@/assets/icons/logo-normal.png" alt="Logo" class="w-40"></div>
 
         <nav class="hidden lg:flex items-center bg-white/5 border border-white/10 px-8 py-3 rounded-full backdrop-blur-md">
           <ul class="flex items-center gap-8">

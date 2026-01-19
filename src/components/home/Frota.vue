@@ -87,7 +87,7 @@
 
           <div class="lg:w-1/3 text-center lg:text-left">
             <h4 class="text-slate-900 font-black uppercase text-2xl italic mb-4">Checklist de <br> Documentos</h4>
-            <p class="text-slate-500 text-sm font-medium">Digitalize seus documentos e agilize sua aprovação pelo WhatsApp.</p>
+            <p class="text-slate-500 text-sm font-medium">Envie seus documentos e agilize sua aprovação pelo WhatsApp.</p>
           </div>
 
           <div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">

@@ -48,13 +48,41 @@
 
         <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/15 blur-[100px]"></div>
 
-        <div class="relative z-10 text-center md:text-left">
-          <h4 class="text-2xl md:text-3xl font-bold mb-2 uppercase italic tracking-tight">
-            Pronto para <span class="text-emerald-400 font-black">faturar mais?</span>
-          </h4>
-          <p class="text-zinc-500 text-xs font-black uppercase tracking-[0.3em]">O melhor suporte de Sergipe para motoristas APP</p>
+    <div class="relative overflow-hidden bg-zinc-950 p-6 md:p-10 rounded-3xl border border-zinc-800">
+
+    <img src="../../assets/images/ticket.png"
+         class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none"
+         alt="Background Ticket">
+
+    <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/15 blur-[100px]"></div>
+
+    <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+
+        <div class="text-center md:text-left">
+            <h4 class="text-2xl md:text-3xl font-bold mb-2 uppercase italic tracking-tight text-white">
+                Pronto para <span class="text-emerald-400 font-black">faturar mais?</span>
+            </h4>
+
+            <p class="text-zinc-500 text-xs font-black uppercase tracking-[0.3em] mb-6">
+                O melhor suporte de Sergipe para motoristas APP
+            </p>
+
+            <div class="mt-4 p-3 border-l-4 border-emerald-400 bg-zinc-900/80 backdrop-blur-sm">
+                <p class="text-white text-sm font-bold uppercase">
+                    Reserve sua prioridade por <span class="text-emerald-400">R$ 250</span>
+                </p>
+                <p class="text-zinc-400 text-xs mt-1">
+                    O valor é abatido no aluguel: na retirada, você só paga o restante.
+                </p>
+            </div>
         </div>
 
+        <button class="w-full md:w-auto bg-emerald-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
+            Reservar Veículo Agora
+        </button>
+
+    </div>
+</div>
         <button class="relative z-10 w-full md:w-auto mt-8 md:mt-0 bg-emerald-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
           Reservar Veículo Agora
         </button>
@@ -89,7 +117,7 @@ const diferenciaisMotorista = [
   },
   {
     icon: Wrench,
-    titulo: 'Manutenção 100%',
+    titulo: 'Manutenção em Dias',
     desc: 'Preventivas e corretivas por nossa conta. Carro parado é prejuízo, por isso garantimos sua máquina sempre em dia.'
   },
   {

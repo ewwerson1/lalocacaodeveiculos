@@ -16,13 +16,13 @@
           </div>
 
           <h1 class="text-6xl md:text-8xl font-black text-white uppercase italic leading-[0.85] tracking-tighter mb-8">
-           LA <br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-lime-400">ALUGUEL.</span> <br>
-            <span class="text-4xl md:text-6xl text-white">A CASA DO MOTORISTA DE APLICATIVO.</span>
+           A CASA DO MOTORISTA<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-lime-400">DE APLICATIVO.</span> <br>
+
           </h1>
 
           <p class="text-gray-400 text-lg md:text-xl max-w-lg mx-auto lg:mx-0 mb-10 leading-relaxed font-medium">
-            Liberdade para explorar o caminho com veículos de alta performance e aprovação em menos de 60 segundos.
+            Liberdade para explorar o caminho com veículos de alta performance.
           </p>
 
           <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">

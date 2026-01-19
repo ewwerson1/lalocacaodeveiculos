@@ -16,12 +16,12 @@
     <div class="">
        <Hero/>
     </div>
-    <Busca/>
+    
     <Frota/>
     <PassoaPasso />
     <Beneficios/>
     <Depoimentos/>
-    
+
 
     <Cta/>
   </main>
