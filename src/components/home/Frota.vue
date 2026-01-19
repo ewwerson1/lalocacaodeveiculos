@@ -1,138 +1,136 @@
 <template>
-  <section
-    id="frota"
-    class="relative  pt-12 pb-24 overflow-hidden font-sans bg-cover bg-center bg-no-repeat"
-    :style="{ backgroundImage: `url(${bgFrota})` }"
-  >
-    <div class="absolute inset-0 bg-white/80 backdrop-blur-[2px] z-0"></div>
+  <section class="py-24 bg-gray-50 relative overflow-hidden font-sans">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 blur-[120px] rounded-full opacity-50"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-lime-500/10 blur-[100px] rounded-full opacity-30"></div>
 
     <div class="container mx-auto px-4 relative z-10">
 
-      <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
-        <div class="max-w-xl">
-          <div class="flex items-center gap-2 mb-4">
-            <span class="w-12 h-1 bg-emerald-500"></span>
-            <span class="text-xs font-black uppercase tracking-[0.3em] text-gray-500">Showroom Disponível</span>
+      <div class="max-w-3xl mb-16">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="w-12 h-[2px] bg-emerald-600"></span>
+          <span class="text-sm font-black uppercase tracking-[0.2em] text-emerald-600">Área do Motorista</span>
+        </div>
+        <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight uppercase italic">
+          Sua ferramenta de <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-600">Trabalho está aqui</span>
+        </h2>
+        <p class="text-slate-500 mt-6 text-lg font-medium">Planos flexíveis para quem busca rentabilidade e segurança em Sergipe.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+
+        <div class="bg-white border border-slate-200 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:shadow-emerald-900/5 transition-all group">
+          <div class="w-12 h-12 bg-emerald-600 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
           </div>
-          <h2 class="text-4xl md:text-6xl font-black text-black leading-[0.9] uppercase italic">
-            Máquinas <br>
-            <span class="text-emerald-500">De Performance</span>
-          </h2>
+          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Planos Semanais</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between items-end border-b border-slate-100 pb-4">
+              <span class="text-slate-400 text-xs font-bold uppercase">A partir de</span>
+              <span class="text-slate-900 font-black text-2xl">R$ 500<span class="text-emerald-600 text-sm">/sem</span></span>
+            </div>
+            <p class="text-slate-500 text-sm leading-relaxed font-medium">Modelos variam conforme ano e categoria. Caução padrão de R$ 1.300,00.</p>
+            <div class="bg-emerald-50 p-4 rounded-2xl border border-emerald-100">
+              <span class="text-emerald-700 text-[10px] font-black uppercase tracking-widest block mb-1">Diferencial</span>
+              <span class="text-emerald-900 text-xs font-extrabold uppercase tracking-tight">KM Livre + Manutenção Inclusa</span>
+            </div>
+          </div>
         </div>
 
-        <div class="flex flex-wrap gap-2">
-          <button
-            v-for="cat in categorias" :key="cat"
-            @click="categoriaAtiva = cat"
-            :class="['px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition-all duration-300',
-              categoriaAtiva === cat
-                ? 'bg-black text-emerald-400 shadow-xl shadow-emerald-500/20 translate-y-[-2px]'
-                : 'bg-white/80 backdrop-blur-md text-gray-400 border border-gray-200 hover:border-emerald-500 hover:text-black']"
-          >
-            {{ cat }}
-          </button>
+        <div class="bg-emerald-600 p-8 rounded-[2.5rem] shadow-2xl shadow-emerald-600/20 transform lg:-translate-y-4 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
+
+          <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-emerald-600 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg>
+          </div>
+          <h3 class="text-white font-black uppercase text-xl mb-4 italic">Entrada Facilitada</h3>
+          <p class="text-emerald-50 font-medium text-sm mb-6">Comece a rodar com investimento inicial reduzido:</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-2 text-white font-bold text-sm">
+              <div class="bg-white/20 rounded-full p-1"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg></div>
+              R$ 900,00 (Caução Inicial)
+            </li>
+            <li class="flex items-center gap-2 text-white font-bold text-sm">
+              <div class="bg-white/20 rounded-full p-1"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><polyline points="20 6 9 17 4 12"/></svg></div>
+              + 1º Aluguel Semanal
+            </li>
+          </ul>
+          <div class="bg-black/10 p-4 rounded-xl backdrop-blur-sm border border-white/10 text-center">
+            <p class="text-white font-black text-xs uppercase tracking-widest">Início: R$ 1.400 a R$ 1.550</p>
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-200 p-8 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:shadow-emerald-900/5 transition-all group">
+          <div class="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-emerald-400 mb-6 group-hover:rotate-6 transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Compromisso</h3>
+          <ul class="space-y-4">
+            <li class="text-slate-500 text-xs flex items-start gap-3">
+              <span class="font-black text-emerald-600">01</span>
+              <span class="font-bold">Vistorias semanais para sua segurança total.</span>
+            </li>
+            <li class="text-slate-500 text-xs flex items-start gap-3">
+              <span class="font-black text-emerald-600">02</span>
+              <span class="font-bold">Tempo mínimo de contrato: 90 dias.</span>
+            </li>
+            <li class="text-slate-500 text-xs flex items-start gap-3">
+              <span class="font-black text-emerald-600">03</span>
+              <span class="font-bold">Taxa de pneus fixa: R$ 25,00/semana.</span>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div v-for="carro in frotaFiltrada" :key="carro.nome"
-             class="group bg-white/90 backdrop-blur-sm rounded-[2.5rem] p-4 border border-gray-100 hover:border-emerald-500/30 transition-all duration-500 hover:shadow-[0_30px_60px_rgba(16,185,129,0.15)]">
+      <div class="bg-white border border-slate-200 rounded-[3rem] p-8 md:p-12 shadow-sm">
+        <div class="flex flex-col lg:flex-row gap-12 items-center">
 
-          <div class="relative h-64 w-full overflow-hidden rounded-[2rem] bg-gray-100">
-            <div class="absolute top-4 left-4 z-10">
-              <span class="bg-black/80 backdrop-blur-md text-emerald-400 text-[10px] font-black px-4 py-2 rounded-full uppercase tracking-widest">
-                {{ carro.categoria }}
-              </span>
-            </div>
-            <img :src="carro.imagem" :alt="carro.nome"
-                 class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          <div class="lg:w-1/3 text-center lg:text-left">
+            <h4 class="text-slate-900 font-black uppercase text-2xl italic mb-4">Checklist de <br> Documentos</h4>
+            <p class="text-slate-500 text-sm font-medium">Digitalize seus documentos e agilize sua aprovação pelo WhatsApp.</p>
           </div>
 
-          <div class="p-6">
-            <h3 class="text-2xl font-black uppercase text-black mb-6 group-hover:text-emerald-600 transition-colors italic">
-              {{ carro.nome }}
-            </h3>
-
-            <div class="grid grid-cols-2 gap-y-4 gap-x-2 mb-8 border-b border-gray-200 pb-8">
-              <div class="flex items-center gap-3">
-                <div class="text-gray-400 group-hover:text-emerald-500 transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
-                </div>
-                <span class="text-[10px] font-black uppercase text-gray-600 tracking-wider">{{ carro.cambio }}</span>
+          <div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">
+            <div v-for="doc in documentos" :key="doc" class="flex items-center gap-4 bg-slate-50 p-4 rounded-2xl border border-slate-100 group hover:border-emerald-200 transition-colors">
+              <div class="w-8 h-8 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-600">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
               </div>
-              <div class="flex items-center gap-3">
-                <div class="text-gray-400 group-hover:text-emerald-500 transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><path d="m4.93 4.93 14.14 14.14M4.93 19.07l14.14-14.14"/></svg>
-                </div>
-                <span class="text-[10px] font-black uppercase text-gray-600 tracking-wider">Ar Condicionado</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <div class="text-gray-400 group-hover:text-emerald-500 transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-                </div>
-                <span class="text-[10px] font-black uppercase text-gray-600 tracking-wider">4 Portas</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <div class="text-gray-400 group-hover:text-emerald-500 transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                </div>
-                <span class="text-[10px] font-black uppercase text-gray-600 tracking-wider">5 Lugares</span>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Diária Premium</span>
-                <div class="flex items-baseline gap-1">
-                  <span class="text-sm font-bold text-black italic">R$</span>
-                  <span class="text-3xl font-black text-black tracking-tighter">{{ carro.preco }}</span>
-                </div>
-              </div>
-              <button class="bg-emerald-500 hover:bg-black hover:text-emerald-400 text-black p-5 rounded-2xl shadow-lg shadow-emerald-500/20 transition-all duration-300 transform group-hover:scale-105">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
-              </button>
+              <span class="text-slate-700 text-[10px] font-black uppercase tracking-widest">{{ doc }}</span>
             </div>
           </div>
+
         </div>
       </div>
+
+      <div class="mt-12 flex flex-wrap justify-center gap-12 border-t border-slate-100 pt-10">
+        <div class="flex flex-col items-center gap-1 text-center">
+          <span class="text-emerald-600 text-[10px] font-black uppercase tracking-[0.2em]">Nossa Responsabilidade</span>
+          <span class="text-slate-900 text-xs font-black">MANUTENÇÃO GERAL E PROTEÇÃO</span>
+        </div>
+        <div class="w-px h-8 bg-slate-200 hidden md:block"></div>
+        <div class="flex flex-col items-center gap-1 text-center">
+          <span class="text-lime-600 text-[10px] font-black uppercase tracking-[0.2em]">Sua Responsabilidade</span>
+          <span class="text-slate-900 text-xs font-black">ÓLEO, FILTROS E ACESSÓRIOS</span>
+        </div>
+      </div>
+
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
-// Importação correta do Asset para o Vite reconhecer
-import bgFrota from '@/assets/images/bg-frota.png'
-
-const categoriaAtiva = ref('Todos')
-const categorias = ['Todos', 'Econômico', 'Sedan', 'SUV', 'Premium']
-
-const carros = ref([
-  {
-    nome: 'VW Gol 1.0 Flex',
-    categoria: 'Econômico',
-    preco: '89,90',
-    cambio: 'Manual',
-    imagem: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800'
-  },
-  {
-    nome: 'Hyundai HB20S Vision',
-    categoria: 'Sedan',
-    preco: '129,90',
-    cambio: 'Automático',
-    imagem: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800'
-  },
-  {
-    nome: 'Jeep Compass Limited',
-    categoria: 'SUV',
-    preco: '249,90',
-    cambio: 'Automático',
-    imagem: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800'
-  },
-])
-
-const frotaFiltrada = computed(() => {
-  if (categoriaAtiva.value === 'Todos') return carros.value
-  return carros.value.filter(c => c.categoria === categoriaAtiva.value)
-})
+const documentos = [
+  'CNH Válida',
+  'Comprovante de Residência',
+  'E-mail Ativo',
+  'Print Perfis Uber / 99',
+  'Print do Instagram',
+  'App Carteira Digital'
+]
 </script>
+
+<style scoped>
+.transition-all {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+</style>

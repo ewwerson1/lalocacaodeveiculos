@@ -21,7 +21,8 @@
     <PassoaPasso />
     <Beneficios/>
     <Depoimentos/>
-    <Locais/>
     
+
+    <Cta/>
   </main>
 </template>

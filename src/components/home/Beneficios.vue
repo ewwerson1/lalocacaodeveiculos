@@ -3,70 +3,62 @@
     class="relative py-24 bg-[#fafafa] overflow-hidden bg-cover bg-center bg-no-repeat"
     :style="{ backgroundImage: `url(${bgCta})` }"
   >
-    <div class="absolute inset-0 bg-white/90 z-0"></div>
+    <div class="absolute inset-0 bg-white/95 z-0"></div>
 
     <div class="container mx-auto px-4 relative z-10">
 
       <div class="max-w-3xl mb-16">
         <div class="flex items-center gap-2 mb-4">
           <span class="w-12 h-[2px] bg-emerald-500"></span>
-          <span class="text-sm font-black uppercase tracking-[0.2em] text-gray-500">Diferenciais</span>
+          <span class="text-sm font-black uppercase tracking-[0.2em] text-gray-400">Vantagens de ser Parceiro</span>
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-black leading-tight uppercase italic">
-          Por que escolher a <br>
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-500">LA Veículos?</span>
+          Por que rodar com a <br>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-500">L.A Veículos?</span>
         </h2>
+        <p class="mt-4 text-gray-500 font-medium">Oferecemos a estrutura completa para você focar no que importa: seu lucro.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
-          v-for="(ben, index) in beneficios"
+          v-for="(ben, index) in diferenciaisMotorista"
           :key="index"
-          class="group relative p-10 bg-white/80 backdrop-blur-md border border-gray-100 rounded-[2.5rem] transition-all duration-500 hover:shadow-[0_20px_50px_rgba(16,185,129,0.1)] hover:-translate-y-2 overflow-hidden"
+          class="group relative p-10 bg-white border border-gray-100 rounded-[2.5rem] transition-all duration-500 hover:shadow-[0_30px_60px_rgba(16,185,129,0.08)] hover:-translate-y-2 overflow-hidden"
         >
           <div class="absolute -right-8 -top-8 w-32 h-32 bg-emerald-500/5 rounded-full group-hover:bg-emerald-500/10 transition-colors duration-500"></div>
 
-          <div class="relative mb-8 flex items-center justify-center w-16 h-16 rounded-2xl bg-black text-emerald-400 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg shadow-emerald-500/10">
-            <component :is="ben.icon" class="w-8 h-8" stroke-width="2" />
+          <div class="relative mb-8 flex items-center justify-center w-14 h-14 rounded-2xl bg-zinc-950 text-emerald-400 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+            <component :is="ben.icon" class="w-7 h-7" stroke-width="2.5" />
           </div>
 
           <div class="relative z-10">
-            <h3 class="text-xl font-bold text-black uppercase mb-4 tracking-tight group-hover:text-emerald-600 transition-colors italic">
+            <h3 class="text-lg font-black text-black uppercase mb-3 tracking-tight italic">
               {{ ben.titulo }}
             </h3>
-            <p class="text-gray-500 leading-relaxed font-medium">
+            <p class="text-gray-500 leading-relaxed font-medium text-sm">
               {{ ben.desc }}
             </p>
           </div>
 
-          <div class="absolute bottom-0 left-0 h-1 w-0 bg-gradient-to-r from-emerald-500 to-lime-400 group-hover:w-full transition-all duration-500"></div>
+          <div class="absolute bottom-0 left-0 h-1.5 w-0 bg-gradient-to-r from-emerald-500 to-lime-400 group-hover:w-full transition-all duration-500"></div>
         </div>
       </div>
-<div class="mt-16 relative flex flex-col md:flex-row items-center justify-between p-8 md:p-12 bg-black rounded-[2.5rem] text-white overflow-hidden shadow-2xl">
 
-  <!-- IMAGEM DE FUNDO -->
-  <img
-    src="../../assets/images/ticket.png"
-    alt="Ticket"
-    class="absolute inset-0 w-full h-full object-cover opacity-70"
-  />
+      <div class="mt-20 relative flex flex-col md:flex-row items-center justify-between p-8 md:p-14 bg-zinc-950 rounded-[3rem] text-white overflow-hidden shadow-2xl">
 
-  <!-- GLOW -->
-  <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 blur-[80px]"></div>
+        <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/15 blur-[100px]"></div>
 
-  <!-- TEXTO -->
-  <div class="relative z-10 text-center md:text-left px-4">
-    <p class="text-xl md:text-2xl font-bold mb-2 uppercase italic tracking-wide">
-      Pronto para <span class="text-emerald-400 font-black">pegar a estrada?</span>
-    </p>
-    <p class="text-gray-300 text-sm font-medium">Reserve seu veículo em menos de 60 segundos.</p>
-  </div>
+        <div class="relative z-10 text-center md:text-left">
+          <h4 class="text-2xl md:text-3xl font-bold mb-2 uppercase italic tracking-tight">
+            Pronto para <span class="text-emerald-400 font-black">faturar mais?</span>
+          </h4>
+          <p class="text-zinc-500 text-xs font-black uppercase tracking-[0.3em]">O melhor suporte de Sergipe para motoristas APP</p>
+        </div>
 
-  <!-- BOTÃO -->
-  <button class="relative z-10 w-full md:w-auto mt-6 md:mt-0 bg-emerald-500 hover:bg-white text-black px-10 py-4 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-xs tracking-[0.2em] shadow-xl shadow-emerald-500/40">
-    Alugar agora
-  </button>
-</div>
+        <button class="relative z-10 w-full md:w-auto mt-8 md:mt-0 bg-emerald-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
+          Reservar Veículo Agora
+        </button>
+      </div>
 
     </div>
   </section>
@@ -74,23 +66,47 @@
 
 <script setup>
 import {
-  Zap,
-  PlaneTakeoff,
   Infinity,
-  Headphones,
-  CalendarClock,
-  ShieldCheck
+  ShieldCheck,
+  Wrench,
+  Map,
+  Clock,
+  Zap
 } from 'lucide-vue-next'
 
 import bgCta from '../../assets/images/bg-cta.png'
 
-const beneficios = [
-  { icon: Zap, titulo: 'Sem Burocracia', desc: 'Processo 100% digital. Nada de papelada ou espera infinita. Reserve em menos de 2 minutos.' },
-  { icon: PlaneTakeoff, titulo: 'No Aeroporto', desc: 'Seu tempo é precioso. Entregamos o carro no desembarque para você sair dirigindo imediatamente.' },
-  { icon: Infinity, titulo: 'Km Livre', desc: 'Não conte os quilômetros, conte as memórias. Viaje sem limites e sem taxas surpresas.' },
-  { icon: Headphones, titulo: 'Suporte 24h', desc: 'Nossa central de emergência está pronta para te atender em qualquer lugar, a qualquer hora.' },
-  { icon: CalendarClock, titulo: 'Mensalistas', desc: 'Tarifas especiais e suporte premium para quem precisa de um carro por 30 dias ou mais.' },
-  { icon: ShieldCheck, titulo: 'Seguro Total', desc: 'Proteção completa contra colisões, roubos e danos a terceiros. Sua paz de espírito é nossa prioridade.' }
+const diferenciaisMotorista = [
+  {
+    icon: Infinity,
+    titulo: 'KM Livre Real',
+    desc: 'Rode o quanto precisar sem se preocupar com taxas extras no final da semana. Sua liberdade financeira não tem limites.'
+  },
+  {
+    icon: ShieldCheck,
+    titulo: 'Proteção Inclusa',
+    desc: 'Seguro completo para o veículo e terceiros. Você trabalha protegido contra imprevistos com a solidez da L.A.'
+  },
+  {
+    icon: Wrench,
+    titulo: 'Manutenção 100%',
+    desc: 'Preventivas e corretivas por nossa conta. Carro parado é prejuízo, por isso garantimos sua máquina sempre em dia.'
+  },
+  {
+    icon: Map,
+    titulo: 'Liberdade em Sergipe',
+    desc: 'Autorização total para rodar em todo o estado. De Aracaju ao interior, você define seu melhor trajeto.'
+  },
+  {
+    icon: Clock,
+    titulo: 'Vistorias Agendadas',
+    desc: 'Checkups semanais rápidos para garantir sua segurança. Qualidade de frota que reflete na sua nota nos apps.'
+  },
+  {
+    icon: Zap,
+    titulo: 'Aprovação Ágil',
+    desc: 'Sem burocracia desnecessária. Análise focada na sua vontade de trabalhar e na documentação digital.'
+  }
 ]
 </script>
 
