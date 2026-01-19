@@ -8,7 +8,7 @@
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center">
 
-      <div><img src="@/assets/icons/logo-normal.png" alt="Logo" class="w-24 md:w-40"></div>
+      <div><img src="@/assets/icons/logo-normal.png" alt="Logo" class="w-24 lg:w-40"></div>
 
         <nav class="hidden lg:flex items-center bg-white/5 border border-white/10 px-8 py-3 rounded-full backdrop-blur-md">
           <ul class="flex items-center gap-8">
@@ -63,7 +63,6 @@ const navLinks = [
   { label: 'Como Funciona', href: '#como-funciona' },
   { label: 'Benefícios', href: '#beneficios' },
   { label: 'Depoimentos', href: '#depoimentos' },
-  { label: 'seja um investidor', href: '#sejainvestidor' },
   { label: 'Sobre', href: '#sobre' },
 ]
 
