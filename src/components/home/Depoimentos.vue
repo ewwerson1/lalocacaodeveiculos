@@ -7,7 +7,7 @@
           Parceiros LA
         </span>
         <h2 class="text-4xl md:text-6xl font-black text-slate-900 uppercase mt-6 tracking-tighter italic">
-          Quem roda <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-600">Aprova</span>
+          Quem roda <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-amber-300">Aprova</span>
         </h2>
         <p class="text-slate-500 font-bold uppercase tracking-[0.2em] mt-4 text-xs">Histórias reais de quem transformou o asfalto em lucro</p>
       </div>

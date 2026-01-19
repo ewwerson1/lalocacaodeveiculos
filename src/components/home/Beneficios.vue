@@ -14,12 +14,12 @@
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-black leading-tight uppercase italic">
           Por que rodar com a <br>
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-lime-500">L.A Veículos?</span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-amber-300">L.A Veículos?</span>
         </h2>
         <p class="mt-4 text-gray-500 font-medium">Oferecemos a estrutura completa para você focar no que importa: seu lucro.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid pb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
           v-for="(ben, index) in diferenciaisMotorista"
           :key="index"
@@ -44,14 +44,10 @@
         </div>
       </div>
 
-      <div class="mt-20 relative flex flex-col md:flex-row items-center justify-between p-8 md:p-14 bg-zinc-950 rounded-[3rem] text-white overflow-hidden shadow-2xl">
-
-        <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/15 blur-[100px]"></div>
-
-    <div class="relative overflow-hidden bg-zinc-950 p-6 md:p-10 rounded-3xl border border-zinc-800">
+      <div class="relative overflow-hidden bg-zinc-950 p-6 md:p-10 rounded-3xl border border-zinc-800">
 
     <img src="../../assets/images/ticket.png"
-         class="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none"
+         class="absolute inset-0 w-full h-full object-cover  pointer-events-none"
          alt="Background Ticket">
 
     <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/15 blur-[100px]"></div>
@@ -83,11 +79,6 @@
 
     </div>
 </div>
-        <button class="relative z-10 w-full md:w-auto mt-8 md:mt-0 bg-emerald-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
-          Reservar Veículo Agora
-        </button>
-      </div>
-
     </div>
   </section>
 </template>

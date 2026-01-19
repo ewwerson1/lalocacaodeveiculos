@@ -16,7 +16,7 @@
             </span>
             <h2 class="text-4xl md:text-6xl font-black text-white uppercase italic tracking-tighter leading-[0.9] mb-8">
               Rentabilize seu <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-lime-400">Patrimônio hoje</span>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-300">Patrimônio hoje</span>
             </h2>
             <p class="text-gray-400 text-lg font-medium leading-relaxed mb-8">
               Transforme seu veículo parado ou seu capital em uma <span class="text-white">máquina de renda recorrente</span>. A LA Veículos faz a gestão completa com segurança jurídica e transparência total em Sergipe.
@@ -56,7 +56,7 @@
                   <select class="w-full bg-black/60 border border-white/5 px-6 py-5 rounded-2xl text-emerald-500 font-black text-[10px] tracking-[0.2em] focus:outline-none focus:border-emerald-500/50 appearance-none cursor-pointer uppercase">
                     <option selected disabled>MODELO DE ATIVO</option>
                     <option>Possuo veículo para locação</option>
-                   
+
                   </select>
                 </div>
 
