@@ -7,7 +7,7 @@
            style="background-image: radial-gradient(#d97706 1px, transparent 1px); background-size: 40px 40px;"></div>
     </div>
 
-    <img src="../../assets/images/ticket.png"
+    <img src="../../assets/images/bg-hero.jpg"
          class="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none z-0"
          alt="Background Ticket">
 
