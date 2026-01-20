@@ -78,7 +78,7 @@
             </div>
             <div>
               <span class="block text-[9px] font-bold text-gray-500 uppercase mb-1">Localização</span>
-              <p class="text-sm font-bold text-gray-300">Rua joaquim Soares Bezerra , 84, Aracaju/SE</p>
+              <p class="text-sm font-bold text-gray-300">Rua joaquim Soares Bezerra , 84, Farolandia - Aracaju/SE</p>
             </div>
           </div>
         </div>
