@@ -12,7 +12,7 @@
           <span class="w-12 h-[2px] bg-emerald-500"></span>
           <span class="text-sm font-black uppercase tracking-[0.2em] text-gray-400">Vantagens de ser Parceiro</span>
         </div>
-        <h2 class="text-4xl md:text-5xl font-black text-black leading-tight uppercase italic">
+        <h2 class="text-4xl md:text-5xl font-black text-black leading-tight italic">
           Por que rodar com a <br>
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-amber-300">L.A Veículos?</span>
         </h2>
@@ -73,9 +73,9 @@
             </div>
         </div>
 
-        <button class="w-full md:w-auto bg-green-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
+        <a href="https://wa.me/5579999094631?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20um%20ve%C3%ADculo%20para%20rodar%20por%20aplicativo.%20Poderiam%20me%20informar%20os%20modelos%20dispon%C3%ADveis%20e%20os%20valores%20das%20cal%C3%A7%C3%B5es?" class="w-full md:w-auto bg-green-500 hover:bg-white text-black px-12 py-5 rounded-2xl font-black transition-all duration-500 transform hover:scale-105 uppercase text-[11px] tracking-[0.2em] shadow-xl shadow-emerald-500/20">
             Reservar Veículo Agora
-        </button>
+        </a>
 
     </div>
 </div>

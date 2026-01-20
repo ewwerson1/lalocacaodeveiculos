@@ -10,9 +10,9 @@
           <span class="w-12 h-[2px] bg-amber-600"></span>
           <span class="text-sm font-black uppercase tracking-[0.2em] text-amber-600">Área do Motorista</span>
         </div>
-        <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight uppercase italic">
+        <h2 class="text-4xl md:text-6xl font-black text-slate-900 leading-tight  italic">
           Sua ferramenta de <br>
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-300">Trabalho está aqui</span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-300">trabalho está aqui</span>
         </h2>
         <p class="text-slate-500 mt-6 text-lg font-medium">Planos flexíveis para quem busca rentabilidade e segurança em Sergipe.</p>
       </div>

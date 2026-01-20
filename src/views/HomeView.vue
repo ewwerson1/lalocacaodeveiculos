@@ -1,14 +1,10 @@
 <script setup>
   import Hero from '../components/home/Hero.vue';
-  import Busca from '../components/home/Busca.vue';
   import Frota from '../components/home/Frota.vue';
   import Beneficios from '../components/home/Beneficios.vue';
   import Depoimentos from '../components/home/Depoimentos.vue';
-  import Locais from '../components/home/Locais.vue';
   import Sobre from '../components/home/Sobre.vue';
-  import SejaInvestidor from '../components/home/SejaInvestidor.vue';
   import PassoaPasso from '../components/home/PassoaPasso.vue'
-  import Cta from '../components/home/Cta.vue';
 </script>
 
 <template>
@@ -16,10 +12,10 @@
     <div class="">
        <Hero/>
     </div>
-    <Frota/>
-    <PassoaPasso />
-    <Beneficios/>
-    <Depoimentos/>
-    <Sobre/>
+    <Frota id="motorista"/>
+    <PassoaPasso id="como-funciona" />
+    <Beneficios id="beneficios"/>
+    <Depoimentos id="depoimentos"/>
+    <Sobre id="sobre"/>
   </main>
 </template>

@@ -33,9 +33,9 @@
               <span class="h-[2px] w-10 bg-green-700"></span>
               <span class="text-xs font-black uppercase tracking-[0.4em] text-amber-600">Quem Somos</span>
             </div>
-            <h2 class="text-4xl md:text-5xl font-black text-black uppercase leading-[0.9] tracking-tighter italic">
-              L.A ADMINISTRAÇÃO E <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-amber-500">LOCAÇÃO DE VEÍCULOS</span>
+            <h2 class="text-4xl md:text-6xl font-black text-black  leading-[0.9] tracking-tighter italic">
+              L.A administração e <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-amber-500">locação de veículos</span>
             </h2>
           </div>
 

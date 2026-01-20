@@ -32,12 +32,12 @@
 
 
           <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-            <button class="w-full sm:w-auto bg-green-700 hover:bg-amber-500 text-white hover:text-black px-10 py-5 rounded-2xl font-black uppercase text-xs tracking-widest transition-all duration-500 shadow-[0_20px_40px_rgba(5,46,22,0.4)]">
+            <a href="https://wa.me/5579999094631" class="w-full sm:w-auto bg-green-700 hover:bg-amber-500 text-white hover:text-black px-10 py-5 rounded-2xl font-black uppercase text-xs tracking-widest transition-all duration-500 shadow-[0_20px_40px_rgba(5,46,22,0.4)]">
               Reservar Veículo Agora
-            </button>
-            <button class="w-full sm:w-auto bg-transparent border border-amber-500/20 hover:border-amber-500 text-white px-10 py-5 rounded-2xl font-black uppercase text-xs tracking-widest transition-all">
-              Ver Planos
-            </button>
+            </a>
+            <a href="https://wa.me/5579999094631" class="w-full sm:w-auto bg-transparent border border-amber-500/20 hover:border-amber-500 text-white px-10 py-5 rounded-2xl font-black uppercase text-xs tracking-widest transition-all">
+              Ver Plano
+            </a>
           </div>
         </div>
 
@@ -45,7 +45,7 @@
           <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-green-900/20 blur-[120px] rounded-full"></div>
 
           <img
-            src="../../assets/images/bg.png"
+            src="../../assets/images/bg.PNG"
             alt="Veículo"
             class="relative z-10 w-full h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.8)] transform -rotate-2 hover:rotate-0 transition-transform duration-1000"
           >

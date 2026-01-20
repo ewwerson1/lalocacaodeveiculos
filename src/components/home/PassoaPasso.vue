@@ -6,9 +6,9 @@
     <div class="container mx-auto px-4 relative z-10">
 
       <div class="text-center mb-20">
-        <h2 class="text-6xl md:text-8xl font-black uppercase italic tracking-tighter leading-none">
+        <h2 class="text-6xl md:text-8xl font-black  italic tracking-tighter leading-none">
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-green-600 to-amber-500">
-            Fluxo LA
+            Fluxo L.A.
           </span>
         </h2>
         <p class="text-slate-400 font-bold uppercase tracking-[0.3em] mt-4 text-xs">

@@ -6,7 +6,7 @@
         <span class="bg-emerald-500 text-black px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-[0.3em]">
           Parceiros LA
         </span>
-        <h2 class="text-4xl md:text-6xl font-black text-slate-900 uppercase mt-6 tracking-tighter italic">
+        <h2 class="text-4xl md:text-6xl font-black text-slate-900  mt-6 tracking-tighter italic">
           Quem roda <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-amber-300">Aprova</span>
         </h2>
         <p class="text-slate-500 font-bold uppercase tracking-[0.2em] mt-4 text-xs">Histórias reais de quem transformou o asfalto em lucro</p>
