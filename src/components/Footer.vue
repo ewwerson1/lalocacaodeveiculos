@@ -74,11 +74,11 @@
           <div class="space-y-6">
             <div>
               <span class="block text-[9px] font-bold text-gray-500 uppercase mb-1">E-mail</span>
-              <a href="mailto:contato@laveiculos.com" class="text-sm font-bold text-white hover:text-green-500 transition-colors">contato@laveiculos.com</a>
+              <a href="mailto:contato@laveiculos.com" class="text-sm font-bold text-white hover:text-green-500 transition-colors">la.locacaodeveiculos@gmail.com</a>
             </div>
             <div>
               <span class="block text-[9px] font-bold text-gray-500 uppercase mb-1">Localização</span>
-              <p class="text-sm font-bold text-gray-300">Aracaju, Sergipe</p>
+              <p class="text-sm font-bold text-gray-300">Rua joaquim Soares Bezerra , 84, Aracaju/SE</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@
       <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="text-center md:text-left">
           <p class="text-[10px] text-gray-600 font-bold uppercase tracking-widest leading-loose">
-            © 2026 LA VEÍCULOS LTDA - CNPJ: 00.000.000/0001-00 <br>
+            © 2026 LA VEÍCULOS LTDA - CNPJ: 57.626.158/0001-99 <br>
             Desenvolvido para motoristas de elite em Sergipe.
           </p>
         </div>
