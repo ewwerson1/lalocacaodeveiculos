@@ -41,18 +41,19 @@
           </div>
         </div>
 
-        <div class="w-full lg:w-1/2 relative animate-slide-left">
-          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-green-900/20 blur-[120px] rounded-full"></div>
+       <div class="w-full lg:w-[65%] relative animate-slide-left">
+
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-green-900/20 blur-[140px] rounded-full"></div>
 
           <img
-            src="@/assets/images/bg.webp"
+            src="@/assets/images/bg.png"
             alt="Veículo"
-            class="relative z-10 w-full h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.8)] transform -rotate-2 hover:rotate-0 transition-transform duration-1000"
+            class="relative z-10 w-full mt-20 h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.8)]
+                  transform -rotate-2 hover:rotate-0 transition-transform duration-1000
+                  scale-110 lg:scale-100 origin-center"
           >
-
+          </div>
         </div>
-
-      </div>
     </div>
 
     <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
