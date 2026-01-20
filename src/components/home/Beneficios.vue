@@ -109,7 +109,7 @@ const diferenciaisMotorista = [
   {
     icon: Wrench,
     titulo: 'Manutenção em Dias',
-    desc: 'Preventivas e corretivas por nossa conta. Carro parado é prejuízo, por isso garantimos sua máquina sempre em dia.'
+    desc: 'Preventivas e corretivas por nossa conta. Carro parado é prejuízo, por isso garantimos a manutenção do seu veículo sempre em dia.'
   },
   {
     icon: Map,

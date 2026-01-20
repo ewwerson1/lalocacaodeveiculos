@@ -23,7 +23,7 @@
           <div class="w-12 h-12 bg-green-700 rounded-xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
           </div>
-          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Planos Trimestrais</h3>
+          <h3 class="text-slate-900 font-black uppercase text-xl mb-4 italic">Plano Trimestral</h3>
           <div class="space-y-4">
             <div class="flex justify-between items-end border-b border-slate-200 pb-4">
               <span class="text-slate-400 text-xs font-bold uppercase">A partir de</span>
@@ -32,7 +32,7 @@
             <p class="text-slate-500 text-sm leading-relaxed font-medium">Modelos variam conforme ano e categoria. Caução padrão de R$ 1.300,00.</p>
             <div class="bg-green-100/50 p-4 rounded-2xl border border-green-200/50">
               <span class="text-green-700 text-[10px] font-black uppercase tracking-widest block mb-1">Diferencial</span>
-              <span class="text-green-900 text-xs font-extrabold uppercase tracking-tight">KM Livre + Manutenção Inclusa</span>
+              <span class="text-green-900 text-xs font-extrabold uppercase tracking-tight">KM Livre + Manutenção Preventiva e Corretiva</span>
             </div>
           </div>
         </div>
