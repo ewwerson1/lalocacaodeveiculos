@@ -7,7 +7,7 @@
            style="background-image: radial-gradient(#d97706 1px, transparent 1px); background-size: 40px 40px;"></div>
     </div>
 
-    <img src="../../assets/images/bg-hero.jpg"
+    <img src="@/assets/images/bg-hero.jpg"
          class="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none z-0"
          alt="Background Ticket">
 
@@ -45,7 +45,7 @@
           <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-green-900/20 blur-[120px] rounded-full"></div>
 
           <img
-            src="../../assets/images/bg.PNG"
+            src="@/assets/images/bg.PNG"
             alt="Veículo"
             class="relative z-10 w-full h-auto object-contain drop-shadow-[0_35px_35px_rgba(0,0,0,0.8)] transform -rotate-2 hover:rotate-0 transition-transform duration-1000"
           >
