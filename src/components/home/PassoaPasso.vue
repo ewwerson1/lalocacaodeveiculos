@@ -1,5 +1,5 @@
 <template>
-  <section id="como-funciona" class="py-24 bg-gray-100 relative overflow-hidden font-sans">
+  <section id="como-funciona" class="py-24 bg-yellow-200/80 relative overflow-hidden font-sans">
     <div class="absolute top-1/4 -left-20 w-80 h-80 bg-green-100/40 blur-[120px] rounded-full"></div>
     <div class="absolute bottom-1/4 -right-20 w-80 h-80 bg-amber-100/30 blur-[120px] rounded-full"></div>
 
@@ -12,7 +12,7 @@
           </span>
         </h2>
         <p class="text-slate-400 font-bold uppercase tracking-[0.3em] mt-4 text-xs">
-          Do cadastro à rota em 4 etapas
+          Do cadastro ao aluguel em 4 etapas
         </p>
       </div>
 

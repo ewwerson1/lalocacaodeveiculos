@@ -34,17 +34,17 @@
               <span class="text-xs font-black uppercase tracking-[0.4em] text-amber-600">Quem Somos</span>
             </div>
             <h2 class="text-4xl md:text-6xl font-black text-black  leading-[0.9] tracking-tighter italic">
-              L.A administração e <br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-amber-500">locação de veículos</span>
+              L.A Administração e <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-amber-500">Locação de Veículos</span>
             </h2>
           </div>
 
           <div class="space-y-5 text-slate-600 text-base leading-relaxed mb-10">
             <p>
-              Reconhecida pelos próprios motoristas como <span class="text-black font-bold">“a casa do motorista de app”</span> — um lugar onde você é bem recebido, ouvido e tratado com respeito. Nosso objetivo é simples: facilitar sua rotina e ajudar você a rodar com tranquilidade e segurança.
+              Reconhecida pelos próprios motoristas como <span class="text-black font-bold">“A casa do motorista de app”</span> — um lugar onde você é bem recebido, ouvido e tratado com respeito. Nosso objetivo é simples: facilitar sua rotina e ajudar você a rodar com tranquilidade e segurança.
             </p>
             <p>
-              Somos especialistas em gestão de frota, oferecendo carros revisados e dentro dos padrões exigidos pelos aplicativos. Trabalhamos com valores semanais que variam conforme o modelo e categoria (Comfort ou não), buscando sempre a <span class="text-green-700 font-bold">melhor opção para o seu perfil.</span>
+              Somos especialistas em gestão de frota, oferecendo carros revisados e dentro dos padrões exigidos pelos aplicativos. Trabalhamos com valores semanais que variam conforme o modelo e categoria, buscando sempre a <span class="text-green-700 font-bold">melhor opção para o seu perfil.</span>
             </p>
             <p>
               Aqui, você não é apenas um número. Nossa equipe é próxima e preparada para reduzir seu tempo parado e aumentar seu <span class="text-green-700 font-bold italic underline decoration-amber-400">tempo na rua faturando.</span> Se você procura parceria de verdade, a L.A é o seu lugar.

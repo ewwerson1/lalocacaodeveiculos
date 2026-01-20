@@ -1,9 +1,8 @@
 <template>
   <section
-    class="relative py-24 bg-[#fafafa] overflow-hidden bg-cover bg-center bg-no-repeat"
-    :style="{ backgroundImage: `url(${bgCta})` }"
+    class="relative py-24 bg-green-200 overflow-hidden bg-cover bg-center bg-no-repeat"
   >
-    <div class="absolute inset-0 bg-white/95 z-0"></div>
+    <div class="absolute inset-0 bg-white/70 z-0"></div>
 
     <div class="container mx-auto px-4 relative z-10">
 
