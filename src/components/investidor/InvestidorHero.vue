@@ -82,7 +82,7 @@
 
 
 
-            <a href="#modelo" class="text-gray-400 hover:text-white text-[10px] font-black uppercase tracking-[0.3em] transition-colors border-b border-gray-800 pb-2">
+            <a href="#modelo-repasse" class="text-gray-400 hover:text-white text-[10px] font-black uppercase tracking-[0.3em] transition-colors border-b border-gray-800 pb-2">
 
               Explorar Modelo Financeiro
 
