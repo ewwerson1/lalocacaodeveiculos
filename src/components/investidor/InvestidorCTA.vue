@@ -77,7 +77,7 @@
               <div class="h-8 w-[1px] bg-slate-200 hidden md:block"></div>
               <div class="text-center md:text-left">
                 <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest">Contatos Oficiais</span>
-                <p class="text-sm font-bold text-slate-900">comercial@laveiculos.com</p>
+                <p class="text-sm font-bold text-slate-900"></p>
               </div>
             </div>
             <p class="text-[9px] font-black text-zinc-300 uppercase tracking-[0.3em]">LA Administração e Locação © 2026</p>

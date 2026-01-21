@@ -55,7 +55,7 @@
             <img v-for="i in 4" :key="i" :src="`https://i.pravatar.cc/100?img=${i+30}`" class="w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm" />
           </div>
           <p class="text-[11px] font-black text-slate-500 uppercase tracking-widest text-center md:text-left">
-            Junte-se a + de <span class="text-emerald-600">500 motoristas</span> lucrando diariamente em Sergipe
+            Junte-se a + de <span class="text-emerald-600">100 motoristas</span> lucrando diariamente em Sergipe
           </p>
         </div>
       </div>

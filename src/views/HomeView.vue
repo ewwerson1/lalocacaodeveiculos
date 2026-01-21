@@ -4,7 +4,8 @@
   import Beneficios from '../components/home/Beneficios.vue';
   import Depoimentos from '../components/home/Depoimentos.vue';
   import Sobre from '../components/home/Sobre.vue';
-  import PassoaPasso from '../components/home/PassoaPasso.vue'
+  import Parceiros from '../components/home/Parceiros.vue';
+  import PassoaPasso from '../components/home/PassoaPasso.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@
     <PassoaPasso id="como-funciona" />
     <Beneficios id="beneficios"/>
     <Depoimentos id="depoimentos"/>
+    <Parceiros id="parceiros"/>
     <Sobre id="sobre"/>
   </main>
 </template>
