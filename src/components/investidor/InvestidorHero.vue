@@ -26,7 +26,7 @@
 
 
 
-        <div class="w-full lg:w-7/12 text-left">
+        <div class="w-full lg:w-7/12  text-left">
 
           <div class="flex items-center gap-4 mb-8">
 
@@ -42,7 +42,9 @@
 
              Seu investimento aliado à gestão<br>
 
-            <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300"> profissional de veículos.</span>
+           <span class="italic pr-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300 box-decoration-clone">
+              profissional de veículos.
+            </span>
 
           </h1>
 
