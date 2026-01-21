@@ -6,7 +6,7 @@
     <div class="container mx-auto max-w-[1480px]">
       <div class="mb-16 text-center md:text-left border-l-4 border-emerald-500 pl-6">
         <span class="text-yellow-600 uppercase text-xs tracking-[0.4em] font-black italic">Vantagens Exclusivas</span>
-        <h2 class="text-4xl md:text-5xl font-bold mt-4 italic">Benefícios para o <span class="text-gold-outline">Investidor</span></h2>
+        <h2 class="text-4xl md:text-5xl font-bold mt-4 italic">Benefícios do<span class="text-gold-outline">Investidor</span></h2>
         <div class="h-1 w-20 bg-gradient-to-r from-emerald-500 to-yellow-600 mt-6 rounded-full mx-auto md:mx-0"></div>
       </div>
 
