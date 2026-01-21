@@ -40,9 +40,9 @@
 
           <h1 class="text-5xl md:text-[84px] font-black text-white leading-[0.85] tracking-tighter mb-10">
 
-            SEU CARRO É UM <br>
+            Seu carro é um <br>
 
-            <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300">ATIVO GERADOR.</span>
+            <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300">ativo gerador.</span>
 
           </h1>
 

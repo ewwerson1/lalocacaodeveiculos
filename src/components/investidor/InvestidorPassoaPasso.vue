@@ -8,7 +8,7 @@
             <div class="h-[1px] w-12 bg-green-500"></div>
             <span class="text-[11px] font-black uppercase tracking-[0.4em] text-green-500">Operação 360º</span>
           </div>
-          <h2 class="text-4xl md:text-6xl font-black tracking-tighter uppercase italic leading-none">
+          <h2 class="text-4xl md:text-6xl font-black tracking-tighter italic leading-none">
             Como funciona a <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Gestão de Ativos.</span>
           </h2>
         </div>
