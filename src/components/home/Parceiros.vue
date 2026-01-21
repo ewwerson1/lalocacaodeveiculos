@@ -31,7 +31,7 @@
 <script setup>
 // No Vite, para imagens dinâmicas, usamos esta abordagem:
 const getImageUrl = (name) => {
-  return new URL(`@/assets/icons/${name}.png`, import.meta.url).href
+  return new URL(`../../assets/icons/${name}.png`, import.meta.url).href
 }
 
 const parceiros = [
