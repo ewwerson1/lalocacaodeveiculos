@@ -90,14 +90,15 @@
         <div class="space-y-8">
           <div>
             <h4 class="text-xs font-black text-amber-500 uppercase tracking-[0.3em] mb-4">Responsabilidades</h4>
+
             <div class="space-y-6">
               <div class="flex gap-4">
                 <div class="flex-shrink-0 w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                 </div>
                 <div>
-                  <h5 class="font-black uppercase text-sm italic italic">Nossa Responsabilidade</h5>
-                  <p class="text-gray-400 text-xs mt-1">Manutenção Geral e Proteção</p>
+                  <h5 class="font-black uppercase text-sm italic italic">Responsabilidades do Investidor</h5>
+                  <p class="text-gray-400 text-xs mt-1">Manutenção Geral e Proteção Veícular. O investidor precisa manter o veículo em condições para que o motorista possa rodar com tranquilidade e arrecadar o valor do aluguel.</p>
                 </div>
               </div>
 
@@ -106,8 +107,8 @@
                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
                 </div>
                 <div>
-                  <h5 class="font-black uppercase text-sm italic">Sua Responsabilidade</h5>
-                  <p class="text-gray-400 text-xs mt-1">Óleo, Filtros, Acessórios e Pneus (Taxa fixa: R$ 25/sem)</p>
+                  <h5 class="font-black uppercase text-sm italic">Responsabilidades do Motorista</h5>
+                  <p class="text-gray-400 text-xs mt-1">Óleo, Filtros, Acessórios, Pneus, e Mau Uso.</p>
                 </div>
               </div>
             </div>

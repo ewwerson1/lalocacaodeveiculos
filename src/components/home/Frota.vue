@@ -102,13 +102,13 @@
 
       <div class="mt-12 flex flex-wrap justify-center gap-6 border-t border-neutral-900 pt-10">
         <div class="flex flex-col bg-amber-500/5 border border-amber-500/10 py-5 px-10 md:px-20 rounded-2xl items-center gap-1 text-center">
-          <span class="text-amber-500 text-[10px] font-black uppercase tracking-[0.2em]">Responsabilidade do investidor</span>
-          <span class="text-neutral-200 text-xs font-black uppercase tracking-tight">Manutenção Geral e Proteção Veícular. O investidor precisa manter o veículo em condições para que o motorista possa rodar com tranquilidade e arrecadar o valor do aluguel.</span>
+          <span class="text-amber-500 text-[10px] font-black uppercase tracking-[0.2em]">Nossa Responsabilidade</span>
+          <span class="text-neutral-200 text-xs font-black uppercase tracking-tight">Manutenção Geral e Proteção</span>
         </div>
 
         <div class="flex flex-col bg-green-500/5 border border-green-500/10 py-5 px-10 md:px-20 rounded-2xl items-center gap-1 text-center">
-          <span class="text-green-500 text-[10px] font-black uppercase tracking-[0.2em]">Responsabilidade do motorista</span>
-          <span class="text-neutral-200 text-xs font-black uppercase tracking-tight">Óleo, Filtros, Acessórios, Pneus, e Mau Uso. </span>
+          <span class="text-green-500 text-[10px] font-black uppercase tracking-[0.2em]">Sua Responsabilidade</span>
+          <span class="text-neutral-200 text-xs font-black uppercase tracking-tight">Óleo, Filtros, Acessórios e Pneus (Taxa fixa: R$ 25/sem)</span>
         </div>
       </div>
 
