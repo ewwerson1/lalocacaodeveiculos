@@ -1,10 +1,10 @@
 <template>
-  <section class="bg-black text-white py-20 px-6 relative overflow-hidden min-h-[600px] flex items-center justify-center">
+  <section class="bg-black text-white py-32 hidden md:flex px-6 relative overflow-hidden min-h-[600px] items-center justify-center">
 
     <div class="absolute top-10 left-10 md:left-20">
       <span class="text-amber-500 uppercase text-xs tracking-widest font-bold">Nosso Ecossistema</span>
       <h2 class="text-4xl md:text-6xl font-black tracking-tighter italic leading-none">
-           O ciclo <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-green to-yellow-500">do Sucesso.</span>
+           O ciclo <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-500">do Sucesso.</span>
           </h2>
     </div>
 
