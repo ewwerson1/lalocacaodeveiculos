@@ -21,29 +21,48 @@
 
         <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">01</span>
-          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Seleção de Elite</h3>
+          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Gestão Completa</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-            Utilizamos ferramentas de verificação avançadas para uma análise rigorosa do motorista. Antecedentes, histórico e perfil são filtrados antes de qualquer contrato.
+           Ao investir conosco, você coloca seu veículo sob a gestão completa da L.A Administração e Locação de Veículos, e nós cuidamos de toda a operação.
           </p>
         </div>
 
         <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group border-x border-white/5">
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">02</span>
-          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Operação & Coleta</h3>
+          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Seleção de Elite</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-            A L.A cuida da logística, cobrança semanal dos aluguéis e gestão de multas. O investidor não tem contato com o motorista, garantindo total comodidade.
+           Desde a seleção criteriosa do motorista até o controle financeiro e repasse dos valores.
           </p>
         </div>
-
-        <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
+         <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">03</span>
+          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Segurança & Tranquilidade</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+           Seu carro é alugado para motoristas de aplicativo previamente analisados, garantindo rentabilidade, segurança e tranquilidade.
+          </p>
+        </div>
+        <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
+          <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">04</span>
+          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Repasse ao Investidor</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            O motorista realiza os pagamentos à empresa de forma semanal e a empresa faz o repasse dos valores para a conta do investidor de forma mensal.
+          </p>
+        </div>
+         <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
+          <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">05</span>
+          <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Taxa de Administração</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+           A taxa de administração será de 20% do valor total do aluguel referente ao mês. Lembrando que a taxa só incidirá em cima do período em que o veículo ficou alugado.
+          </p>
+        </div>
+         <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
+          <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">06</span>
           <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Repasse & Lucro</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-            Até o 5º dia útil, você recebe o repasse líquido. Taxa de administração fixa de 20%, sem taxas ocultas ou surpresas.
+           Até o 5º dia útil o invcestidor receberá o valor correspondente ao periodo em que seu veículo ficou alugado.
           </p>
         </div>
       </div>
-
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
         <div class="relative group">
@@ -60,7 +79,7 @@
             </div>
 
             <ul class="space-y-4">
-              <li v-for="item in ['Valores semanais', 'Faturamento mensal', 'Histórico de manutenções', 'Status do veículo']" :key="item" class="flex items-center gap-3 border-b border-white/5 pb-3">
+              <li v-for="item in ['Valores semanais', 'Faturamento mensal', 'Histórico de manutenções', ]" :key="item" class="flex items-center gap-3 border-b border-white/5 pb-3">
                 <div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
                 <span class="text-xs font-bold uppercase tracking-wider text-gray-300">{{ item }}</span>
               </li>
@@ -77,8 +96,8 @@
                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                 </div>
                 <div>
-                  <h5 class="font-black uppercase text-sm italic italic">Manutenção Preventiva</h5>
-                  <p class="text-gray-400 text-xs mt-1">O investidor garante a integridade mecânica (motor, suspensão, ar-condicionado) para assegurar a geração de receita.</p>
+                  <h5 class="font-black uppercase text-sm italic italic">Nossa Responsabilidade</h5>
+                  <p class="text-gray-400 text-xs mt-1">Manutenção Geral e Proteção</p>
                 </div>
               </div>
 
@@ -87,16 +106,12 @@
                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
                 </div>
                 <div>
-                  <h5 class="font-black uppercase text-sm italic">Proteção contra Mau Uso</h5>
-                  <p class="text-gray-400 text-xs mt-1">Em casos comprovados de negligência do motorista, a L.A aciona os mecanismos de proteção para que o custo não recaia sobre você.</p>
+                  <h5 class="font-black uppercase text-sm italic">Sua Responsabilidade</h5>
+                  <p class="text-gray-400 text-xs mt-1">Óleo, Filtros, Acessórios e Pneus (Taxa fixa: R$ 25/sem)</p>
                 </div>
               </div>
             </div>
           </div>
-
-          <a href="https://wa.me/5579999094631?text=Olá!+Quero+entender+melhor+o+modelo+de+repasse." class="inline-block bg-white text-black px-10 py-4 rounded-full font-black text-[10px] uppercase tracking-widest hover:bg-green-500 transition-all shadow-xl shadow-white/5">
-            Quero uma Simulação
-          </a>
         </div>
 
       </div>
