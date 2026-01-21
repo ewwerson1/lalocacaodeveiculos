@@ -28,7 +28,7 @@
               </h2>
 
               <p class="text-zinc-400 text-lg md:text-xl font-medium max-w-xl mb-12 leading-relaxed">
-                Não deixe seu ativo depreciar parado. Fale com nossos especialistas e descubra como o modelo <span class="text-white italic">L.A Asset Management</span> entrega rentabilidade e segurança real.
+                Não deixe seu ativo depreciar parado. Fale com nossos especialistas e descubra como o modelo de<span class="text-white italic"> negócio </span>que  entrega rentabilidade e segurança real.
               </p>
 
               <div class="grid grid-cols-2 md:grid-cols-3 gap-6 pt-10 border-t border-white/5">
