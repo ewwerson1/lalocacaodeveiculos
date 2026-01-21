@@ -45,7 +45,7 @@
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">04</span>
           <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Repasse ao Investidor</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-            O motorista realiza os pagamentos à empresa de forma semanal e a empresa faz o repasse dos valores para a conta do investidor de forma mensal.
+            O motorista realiza os pagamentos à empresa de forma semanal, e a empresa faz o repasse dos valores para a conta do investidor de forma mensal.
           </p>
         </div>
          <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
@@ -59,7 +59,7 @@
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">06</span>
           <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Repasse & Lucro</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-           Até o 5º dia útil o invcestidor receberá o valor correspondente ao periodo em que seu veículo ficou alugado.
+           Até o 5º dia útil o investidor receberá o valor correspondente ao periodo em que seu veículo ficou alugado.
           </p>
         </div>
       </div>
