@@ -52,7 +52,7 @@
           <span class="text-5xl font-black text-white/5 group-hover:text-green-500/20 transition-colors italic">05</span>
           <h3 class="text-xl font-black uppercase mt-4 mb-4 italic">Taxa de Administração</h3>
           <p class="text-gray-400 text-sm leading-relaxed">
-           A taxa de administração será de 20% do valor total do aluguel referente ao mês. Lembrando que a taxa só incidirá em cima do período em que o veículo ficou alugado.
+           A taxa de administração será de 20% do valor total do aluguel referente ao mês. Lembrando que a taxa só incide em cima do período em que o veículo ficou alugado.
           </p>
         </div>
          <div class="bg-zinc-950 p-10 hover:bg-zinc-900 transition-colors group">
