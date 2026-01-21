@@ -3,11 +3,13 @@ import InvestidorHero from '../components/investidor/InvestidorHero.vue'
 import InvestidorPassoaPasso from '../components/investidor/InvestidorPassoaPasso.vue'
 import InvestidorFinanceiro from '../components/investidor/InvestidorFinanceiro.vue'
 import InvestidorCTA from '../components/investidor/InvestidorCTA.vue'
+import InvestidorHistoria from '@/components/investidor/InvestidorHistoria.vue'
 </script>
 
 <template>
   <InvestidorHero />
-  <InvestidorFinanceiro id="modelo-repasse" />
+  <InvestidorHistoria/>
   <InvestidorPassoaPasso id="como-funciona"/>
+   <InvestidorFinanceiro id="modelo-repasse" />
   <InvestidorCTA id="contato-investidor"/>
 </template>

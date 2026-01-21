@@ -40,9 +40,9 @@
 
           <h1 class="text-5xl md:text-[84px] font-black text-white leading-[0.85] tracking-tighter mb-10">
 
-            Seu carro é um <br>
+             Seu investimento aliado à gestão<br>
 
-            <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300">ativo gerador.</span>
+            <span class="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300"> profissional de veículos.</span>
 
           </h1>
 
@@ -60,9 +60,6 @@
 
             <div>
 
-              <p class="text-white font-black text-2xl mb-1 italic">20% ADM</p>
-
-              <p class="text-gray-400 text-xs uppercase font-bold tracking-widest">Taxa de Gestão fixa</p>
 
             </div>
 
@@ -95,65 +92,8 @@
 
 
         <div class="w-full lg:w-5/12 relative">
-
-          <div class="relative z-10 bg-gradient-to-br from-white/10 to-transparent p-[1px] rounded-[2rem] backdrop-blur-sm">
-
-            <div class="bg-black/40 p-8 rounded-[2rem] border border-white/5">
-
-              <div class="flex justify-between items-center mb-10">
-
-                <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-[0_0_20px_#22c55e]">
-
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-
-                </div>
-
-                <div class="text-right">
-
-                  <span class="block text-[10px] font-black text-gray-500 uppercase tracking-widest">Status Patrimonial</span>
-
-                  <span class="text-green-500 font-bold text-sm">Garantia Real</span>
-
-                </div>
-
-              </div>
-
-
-
-              <div class="space-y-6">
-
-                <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
-
-                  <div class="h-full bg-amber-500 w-[70%]"></div>
-
-                </div>
-
-                <p class="text-gray-400 text-[10px] font-medium leading-relaxed italic">
-
-                  "O veículo permanece integralmente em nome do investidor, garantindo liquidez e segurança jurídica total."
-
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-
-
-          <div class="absolute -bottom-10 -left-10 bg-green-600 text-black p-6 rounded-2xl shadow-2xl rotate-3 hidden md:block">
-
-            <span class="block text-2xl font-black leading-none italic">PLANILHA 24H</span>
-
-            <span class="text-[9px] font-black uppercase tracking-widest">Acesso total aos dados</span>
-
-          </div>
-
+          <img src="../../assets/images/bg-investidor.png" alt="" class="scale-160">
         </div>
-
-
-
       </div>
 
     </div>
@@ -166,9 +106,6 @@
 
         <div class="hidden md:block">
 
-          <span class="text-[9px] font-black text-gray-600 uppercase tracking-widest block mb-2">Fundadores</span>
-
-          <p class="text-white text-xs font-bold italic uppercase tracking-tighter">Marcel (Advogado) & Elan (Policial)</p>
 
         </div>
 

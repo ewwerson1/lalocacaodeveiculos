@@ -7,7 +7,7 @@
 
         <div class="lg:w-1/2">
           <div class="flex items-center gap-3 mb-6">
-            <span class="text-[11px] font-black uppercase tracking-[0.4em] text-green-700">Financial Intelligence</span>
+            <span class="text-[11px] font-black uppercase tracking-[0.4em] text-green-700">Inteligência Financeira</span>
             <div class="h-[1px] flex-1 bg-slate-200"></div>
           </div>
 
