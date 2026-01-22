@@ -88,7 +88,7 @@
       <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <div class="text-center md:text-left">
           <p class="text-[10px] text-gray-600 font-bold uppercase tracking-widest leading-loose">
-            © 2026 LA VEÍCULOS LTDA - CNPJ: 57.626.158/0001-99 <br>
+            © 2023 LA VEÍCULOS LTDA - CNPJ: 57.626.158/0001-99 <br>
             Desenvolvido para motoristas de elite em Sergipe.
           </p>
         </div>

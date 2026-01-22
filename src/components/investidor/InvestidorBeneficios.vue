@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-black text-white pt-24 lg:pt-0 pb-24 px-6 relative overflow-hidden">
+  <section class="bg-black text-white py-24 px-6 relative overflow-hidden">
     <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[120px] -z-10"></div>
     <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-yellow-600/5 rounded-full blur-[120px] -z-10"></div>
 
     <div class="container mx-auto max-w-[1480px]">
       <div class="mb-16 text-center md:text-left border-l-4 border-emerald-500 pl-6">
         <span class="text-yellow-600 uppercase text-xs tracking-[0.4em] font-black italic">Vantagens Exclusivas</span>
-        <h2 class="text-4xl md:text-5xl font-bold mt-4 italic">Benefícios do<span class="text-gold-outline">Investidor</span></h2>
+        <h2 class="text-4xl md:text-5xl font-bold mt-4 italic">Benefícios do <span class="text-gold-outline">Investidor</span></h2>
         <div class="h-1 w-20 bg-gradient-to-r from-emerald-500 to-yellow-600 mt-6 rounded-full mx-auto md:mx-0"></div>
       </div>
 
@@ -27,7 +27,7 @@
             <svg class="w-6 h-6 text-emerald-500 group-hover:text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zM17 13v-2V7a2 2 0 00-2-2H9a2 2 0 00-2 2v10s.303 3 5 3 5-3 5-3v-4z"></path></svg>
           </div>
           <h3 class="text-xl font-bold mb-3 group-hover:text-yellow-600">Cobrança Pontual</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">Gestão rigorosa dos recebíveis para garantir a rentabilidade do seu patrimônio no prazo.</p>
+          <p class="text-slate-400 text-sm leading-relaxed">Cobrança rigorosa dos aluguéis para garantir a rentabilidade do seu patrimônio no prazo.</p>
         </div>
 
         <div class="group p-8 bg-white/5 border border-white/10 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 relative overflow-hidden">
@@ -36,7 +36,7 @@
             <svg class="w-6 h-6 text-emerald-500 group-hover:text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
           </div>
           <h3 class="text-xl font-bold mb-3 group-hover:text-yellow-600">Gestão de Multas</h3>
-          <p class="text-slate-400 text-sm leading-relaxed">Monitoramento completo e indicação de condutores em tempo recorde jurídico.</p>
+          <p class="text-slate-400 text-sm leading-relaxed">Monitoramento completo, cobrança dos valores e indicação de condutores.</p>
         </div>
 
         <div class="group p-8 bg-white/5 border border-white/10 rounded-3xl hover:border-emerald-500/50 transition-all duration-300 relative overflow-hidden">
@@ -61,13 +61,13 @@
           <div class="w-12 h-12 bg-black/20 rounded-2xl flex items-center justify-center mb-6">
             <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
           </div>
-          <h3 class="text-xl font-bold mb-3 text-black">Padrão Sergipe</h3>
-          <p class="text-black/80 text-sm leading-relaxed">Sua frota gerida pela empresa mais reconhecida e renomada de Sergipe, com o selo de excelência verde e ouro.</p>
+          <h3 class="text-xl font-bold mb-3 text-black">Padrão Nordeste</h3>
+          <p class="text-black/80 text-sm leading-relaxed">Sua frota gerida pela empresa mais reconhecida e renomada do Nordeste, com o selo de excelência verde e ouro.</p>
         </div>
 
       </div>
 
-      <p class="mt-16 text-center text-slate-500 text-sm flex items-center justify-center gap-2">
+      <p class="mt-16 text-center text-slate-300 text-xl flex items-center justify-center gap-2">
         <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
         Garantimos comodidade total no seu dia a dia
         <span class="w-1.5 h-1.5 bg-yellow-600 rounded-full animate-pulse"></span>

@@ -29,7 +29,15 @@
         <p class="text-xs text-slate-400 mt-1 px-4">Disponibiliza o veículo e confia no nosso trabalho</p>
       </div>
 
-      <div class="absolute bottom-0 ml-36 md:left-0 flex flex-col items-center w-64 text-center">
+      <div class="absolute bottom-36 left-[100px] md:right-0 flex flex-col items-center w-64 text-center">
+        <div class="w-16 h-16 bg-black border-2 border-yellow-500 rounded-full flex items-center justify-center mb-4 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+          <svg class="w-8 h-8 text-amber-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        </div>
+        <h3 class="font-bold text-lg">L.A Administração</h3>
+        <p class="text-xs text-slate-400 mt-1 px-4">Repasse do aluguel para o investidor</p>
+      </div>
+
+      <div class="absolute -bottom-20 ml-3 md:left-78 flex flex-col items-center w-64 text-center">
         <div class="w-16 h-16 bg-black border-2 border-amber-500 rounded-full flex items-center justify-center mb-4 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
           <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
         </div>
@@ -37,7 +45,7 @@
         <p class="text-xs text-slate-400 mt-1 px-4">Aluga o carro e gera a renda para o ciclo girar</p>
       </div>
 
-      <div class="absolute bottom-0 left-[496px] md:right-0 flex flex-col items-center w-64 text-center">
+      <div class="absolute bottom-32 left-[540px] md:right-0 flex flex-col items-center w-64 text-center">
         <div class="w-16 h-16 bg-black border-2 border-yellow-500 rounded-full flex items-center justify-center mb-4 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
           <svg class="w-8 h-8 text-amber-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
         </div>
