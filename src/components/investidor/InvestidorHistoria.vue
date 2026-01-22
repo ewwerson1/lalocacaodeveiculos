@@ -4,7 +4,7 @@
     <div class="absolute top-10 left-10 md:left-20">
       <span class="text-amber-500 uppercase text-xs tracking-widest font-bold">Nosso Ecossistema</span>
       <h2 class="text-4xl md:text-6xl font-black tracking-tighter italic leading-none">
-           O ciclo <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-yellow-500">do Sucesso.</span>
+           O ciclo <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-yellow-500">do sucesso.</span>
           </h2>
     </div>
 
