@@ -20,7 +20,7 @@
             <span class="text-[10px] font-black uppercase tracking-[0.3em] text-amber-500">Frota Premium</span>
           </div>
 
-          <h1 class="text-6xl md:text-8xl font-black text-white  italic leading-[0.85] tracking-tighter mb-8">
+          <h1 class="text-6xl md:text-[85px] font-black text-white  italic leading-[0.85] tracking-tighter mb-8">
             A casa do motorista<br>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-amber-400 to-yellow-300">de aplicativo.</span>
           </h1>
