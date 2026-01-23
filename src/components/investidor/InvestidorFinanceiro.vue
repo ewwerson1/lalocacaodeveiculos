@@ -49,7 +49,7 @@
               <div>
                 <span class="text-green-500 font-black uppercase text-[9px] tracking-[0.3em] mb-2 block">Sócio-Fundador</span>
                 <h3 class="text-3xl font-black text-white italic leading-none">Elan</h3>
-                <p class="text-slate-400 font-bold text-xs uppercase mt-2 tracking-widest">Experiência em Segurança • Policial</p>
+                <p class="text-slate-400 font-bold text-xs uppercase mt-2 tracking-widest">Experiência em Segurança • Servidor Público</p>
               </div>
             </div>
           </div>
@@ -68,11 +68,12 @@
             </div>
           </div>
 
-          <div class="pt-6 pl-4 border-l-2 border-slate-200">
-            <p class="text-slate-400 text-xs font-medium italic leading-relaxed">
-              "Base sólida e profissional para garantir o melhor retorno possível com total tranquilidade."
-            </p>
-          </div>
+         <div class="relative pl-8 border-l-4 border-yellow-500 my-12">
+          <span class="absolute top-[-20px] left-0 text-6xl text-yellow-500/20 font-serif">“</span>
+          <p class="text-2xl md:text-3xl font-black italic leading-tight text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-amber-600 drop-shadow-sm">
+            "Base sólida e profissional para garantir o melhor retorno possível com total tranquilidade."
+          </p>
+        </div>
 
         </div>
 
