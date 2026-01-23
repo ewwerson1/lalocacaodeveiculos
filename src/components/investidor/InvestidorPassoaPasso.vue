@@ -103,10 +103,10 @@
 const passos = [
   { id: '01', titulo: 'Gestão Completa', desc: 'Ao investir conosco, você coloca seu veículo sob a gestão completa da L.A Administração e Locação de Veículos, e nós cuidamos de toda a operação.' },
   { id: '02', titulo: 'Seleção de Elite', desc: 'Desde a seleção criteriosa do motorista até o controle financeiro e repasse dos valores.' },
-  { id: '03', titulo: 'Segurança & Tranquilidade', desc: 'Seu carro é alugado para motoristas de aplicativo previamente analisados, garantindo rentabilidade, segurança e tranquilidade.' },
+  { id: '03', titulo: 'Segurança e Tranquilidade', desc: 'Seu carro é alugado para motoristas de aplicativo previamente analisados, garantindo rentabilidade, segurança e tranquilidade.' },
   { id: '04', titulo: 'Repasse ao Investidor', desc: 'O motorista realiza os pagamentos à empresa de forma semanal, e a empresa faz o repasse dos valores para a conta do investidor de forma mensal.' },
   { id: '05', titulo: 'Taxa de Administração', desc: 'A taxa de administração será de 20% do valor total do aluguel referente ao mês.' },
-  { id: '06', titulo: 'Repasse & Lucro', desc: 'Até o 5º dia útil o investidor receberá o valor correspondente ao período em que seu veículo ficou alugado.' },
+  { id: '06', titulo: 'Repasse e Lucro', desc: 'Até o 5º dia útil o investidor receberá o valor correspondente ao período em que seu veículo ficou alugado.' },
 ]
 </script>
 

@@ -78,7 +78,7 @@
           </div>
 
           <div class="text-center md:text-right">
-            <p class="text-[10px] font-black text-green-800 tracking-[0.4em]">LA Administração e Locação © 2023</p>
+            <p class="text-[10px] font-black text-green-800 tracking-[0.4em]">LA Administração e Locação de Veículos © 2023</p>
             <p class="text-[9px] text-zinc-400 mt-1  tracking-widest font-bold">Gestão Profissional de Ativos</p>
           </div>
         </div>
