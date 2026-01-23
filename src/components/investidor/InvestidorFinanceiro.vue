@@ -64,7 +64,7 @@
                     <h3 class="text-4xl md:text-5xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-emerald-700 transition-colors">
                       Elan Arimateia
                     </h3>
-                    <p class="text-emerald-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio</p>
+                    <p class="text-emerald-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio Fundador</p>
                   </div>
                 </div>
 
