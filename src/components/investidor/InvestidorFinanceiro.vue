@@ -29,9 +29,9 @@
           <div class="grid grid-cols-2 gap-4">
             <div v-for="(item, idx) in objetivos" :key="idx"
                  class="group flex items-center gap-3 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm
-                        hover:shadow-xl hover:-translate-y-1 hover:border-emerald-200 transition-all duration-300 cursor-default">
+                         hover:-translate-y-1 hover:shadow-none hover:border-none transition-all duration-300 cursor-default">
               <div class="w-2 h-2 bg-emerald-500 rounded-full group-hover:scale-150 group-hover:bg-amber-500 transition-all duration-500 shadow-[0_0_10px_rgba(16,185,129,0.4)]"></div>
-              <span class="text-[11px] font-black text-slate-700 uppercase tracking-tight group-hover:text-emerald-700 transition-colors">{{ item }}</span>
+              <span class="text-[11px] font-black text-slate-700 uppercase tracking-tight group-hover:text-amber-500 transition-colors">{{ item }}</span>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
                   </div>
                   <div class="text-center md:text-left">
                     <h3 class="text-4xl md:text-5xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-emerald-700 transition-colors">
-                      Elan
+                      Elan Arimateia
                     </h3>
                     <p class="text-emerald-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio</p>
                   </div>
@@ -75,7 +75,7 @@
                   </div>
                   <div class="text-center md:text-left">
                     <h3 class="text-4xl md:text-5xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-amber-600 transition-colors">
-                      Marcel
+                      Marcel Lima
                     </h3>
                     <p class="text-amber-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Jurídico • Sócio Fundador</p>
                   </div>

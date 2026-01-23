@@ -10,8 +10,8 @@ import InvestidorHistoria from '@/components/investidor/InvestidorHistoria.vue'
 <template>
   <InvestidorHero />
   <InvestidorPassoaPasso id="como-funciona"/>
-  <InvestidorHistoria/>
-  <InvestidorBeneficios/>
-  <InvestidorFinanceiro id="modelo-repasse" />
+  <InvestidorHistoria id="ciclo"/>
+  <InvestidorBeneficios id="beneficios"/>
+  <InvestidorFinanceiro id="quem-somos" />
   <InvestidorCTA id="contato-investidor"/>
 </template>

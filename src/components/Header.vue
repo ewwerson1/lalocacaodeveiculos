@@ -133,9 +133,11 @@ const isPortalInvestidor = computed(() => route.path === '/portal-investidor')
 const currentLinks = computed(() => {
   return isPortalInvestidor.value
     ? [
-        { label: 'Modelo de repasse', href: '#modelo-repasse' },
         { label: 'Como funciona', href: '#como-funciona' },
-        { label: 'Seja um investidor LA', href: '#contato-investidor' },
+        { label: 'Ciclo', href: '#ciclo' },
+        { label: 'Benefícios', href: '#beneficios' },
+        { label: 'Quem somos', href: '#quem-somos' },
+        { label: 'Seja um investidor L.A.', href: '#contato-investidor' },
       ]
     : [
         { label: 'Área do motorista LA', href: '#motorista' },

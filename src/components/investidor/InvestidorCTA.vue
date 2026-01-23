@@ -73,12 +73,12 @@
             <div class="h-8 w-[1px] bg-slate-200 hidden md:block"></div>
             <div>
               <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest mb-1">Horário de Atendimento</span>
-              <p class="text-sm font-bold text-slate-900 italic">Segunda a Sexta, 08h às 18h</p>
+            <p class="text-sm font-bold text-slate-900 italic">Segunda a Sexta, 08h às 17:30h / Sábado das 08h às 12h</p>
             </div>
           </div>
 
           <div class="text-center md:text-right">
-            <p class="text-[10px] font-black text-emerald-800 uppercase tracking-[0.4em]">LA Administração e Locação © 2026</p>
+            <p class="text-[10px] font-black text-emerald-800 uppercase tracking-[0.4em]">LA Administração e Locação © 2023</p>
             <p class="text-[9px] text-zinc-400 mt-1 uppercase tracking-widest font-bold">Gestão Profissional de Ativos</p>
           </div>
         </div>
