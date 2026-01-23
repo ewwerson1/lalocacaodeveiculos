@@ -9,13 +9,13 @@
 
         <div class="lg:w-5/12">
           <div class="flex items-center gap-3 mb-8">
-            <span class="text-[11px] font-black uppercase tracking-[0.4em] text-emerald-700">Fundação e Propósito</span>
-            <div class="h-[1px] w-12 bg-emerald-700/30"></div>
+            <span class="text-[11px] font-black uppercase tracking-[0.4em] text-greeen-700">Fundação e Propósito</span>
+            <div class="h-[1px] w-12 bg-green-700/30"></div>
           </div>
 
           <h2 class="text-5xl md:text-7xl font-black text-slate-900 italic tracking-tighter leading-[0.9] mb-10">
             Quem está por <br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-emerald-500 to-amber-500">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-green-500 to-amber-500">
               trás da L.A.
             </span>
           </h2>
@@ -30,7 +30,7 @@
             <div v-for="(item, idx) in objetivos" :key="idx"
                  class="group flex items-center gap-3 p-5 bg-white rounded-2xl border border-slate-100 shadow-sm
                          hover:-translate-y-1 hover:shadow-none hover:border-none transition-all duration-300 cursor-default">
-              <div class="w-2 h-2 bg-emerald-500 rounded-full group-hover:scale-150 group-hover:bg-amber-500 transition-all duration-500 shadow-[0_0_10px_rgba(16,185,129,0.4)]"></div>
+              <div class="w-2 h-2 bg-green-500 rounded-full group-hover:scale-150 group-hover:bg-amber-500 transition-all duration-500 shadow-[0_0_10px_rgba(16,185,129,0.4)]"></div>
               <span class="text-[11px] font-black text-slate-700 uppercase tracking-tight group-hover:text-amber-500 transition-colors">{{ item }}</span>
             </div>
           </div>
@@ -38,7 +38,7 @@
 
         <div class="lg:w-7/12 w-full">
           <div class="relative group">
-            <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-amber-500/10 rounded-[3.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-amber-500/10 rounded-[3.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
 
             <div class="relative rounded-[3.5rem] p-4 overflow-hidden">
               <div class="relative h-[520px] w-full rounded-[2.8rem] overflow-hidden bg-slate-100 shadow-2xl border border-white">
@@ -56,15 +56,15 @@
 
               <div class="grid grid-cols-1 md:grid-cols-2 gap-8 py-10 px-4">
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-6 group/item">
-                  <div class="w-16 h-16 bg-emerald-50 rounded-2xl flex items-center justify-center border border-emerald-100
-                              group-hover/item:bg-emerald-600 group-hover/item:text-white transition-all duration-500 shadow-sm">
-                    <Shield class="w-8 h-8 text-emerald-600 group-hover/item:text-white" />
+                  <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center border border-green-100
+                              group-hover/item:bg-green-600 group-hover/item:text-white transition-all duration-500 shadow-sm">
+                    <Shield class="w-8 h-8 text-green-600 group-hover/item:text-white" />
                   </div>
                   <div class="text-center md:text-left">
-                    <h3 class="text-4xl md:text-4xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-emerald-700 transition-colors">
+                    <h3 class="text-4xl md:text-4xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-green-700 transition-colors">
                       Elan Arimateia
                     </h3>
-                    <p class="text-emerald-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio Fundador</p>
+                    <p class="text-green-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio Fundador</p>
                   </div>
                 </div>
 
