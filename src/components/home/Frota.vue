@@ -78,6 +78,14 @@
               <span class="font-black text-green-500">03</span>
               <span class="font-bold">Suporte 24 horas</span>
             </li>
+             <li class="text-neutral-400 text-xs flex items-start gap-3">
+              <span class="font-black text-green-500">04</span>
+              <span class="font-bold">Atendimento humanizado </span>
+            </li>
+             <li class="text-neutral-400 text-xs flex items-start gap-3">
+              <span class="font-black text-green-500">05</span>
+              <span class="font-bold">Melhor experiência com locação de carro </span>
+            </li>
           </ul>
         </div>
       </div>

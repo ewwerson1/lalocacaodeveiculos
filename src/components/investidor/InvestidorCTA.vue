@@ -9,12 +9,12 @@
         <div class="relative bg-zinc-950 rounded-[3rem] md:rounded-[5rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,36,20,0.4)] flex flex-col lg:flex-row items-stretch border border-white/5">
 
           <div class="p-10 md:p-20 lg:w-2/3 relative z-10">
-            <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-full mb-8">
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-lime-500/20 rounded-full mb-8">
               <span class="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
               <span class="text-[10px] font-black  tracking-[0.3em] text-green-400">Oportunidade de Mercado</span>
             </div>
 
-            <h2 class="text-5xl md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r from-green-400 via-green-300 to-amber-500 font-black italic leading-[0.85] tracking-tighter mb-8">
+            <h2 class="text-5xl md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r from-green-400 via-lime-300 to-amber-500 font-black italic leading-[0.85] tracking-tighter mb-8">
               Fale com nossa equipe e torne-se um <br>
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-yellow-400 to-amber-500">
                 investidor L.A.

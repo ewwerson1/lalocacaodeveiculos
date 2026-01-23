@@ -42,7 +42,7 @@
 
              Seu investimento aliado à gestão<br>
 
-           <span class="italic pr-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-green-500 to-green-300 box-decoration-clone">
+           <span class="italic pr-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-lime-500 to-lime-300 box-decoration-clone">
               profissional de veículos.
             </span>
 

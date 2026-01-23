@@ -15,7 +15,7 @@
 
           <h2 class="text-5xl md:text-7xl font-black text-slate-900 italic tracking-tighter leading-[0.9] mb-10">
             Quem está por <br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-green-500 to-amber-500">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-lime-500 to-amber-500">
               trás da L.A.
             </span>
           </h2>
