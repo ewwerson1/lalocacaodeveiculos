@@ -1,91 +1,90 @@
 <template>
   <section id="contato-investidor" class="py-32 bg-gray-50 relative overflow-hidden">
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full opacity-[0.03] pointer-events-none">
-      <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <defs>
-          <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-            <path d="M 10 0 L 0 0 0 10" fill="none" stroke="black" stroke-width="0.1"/>
-          </pattern>
-        </defs>
-        <rect width="100" height="100" fill="url(#grid)" />
-      </svg>
-    </div>
-    <a href="https://wa.me/5579999094631?text=Olá!%20Vi%20o%20Portal%20do%20Investidor%20e%20gostaria%20de%20realizar%20uma%20simulação%20de%20rentabilidade%20para%20o%20meu%20veículo." target="_blank">
-      <div class="container mx-auto px-6 relative z-10">
-        <div class="max-w-6xl mx-auto">
+    <div class="absolute inset-0 opacity-[0.05] pointer-events-none"
+         style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 30px 30px;"></div>
 
-          <div class="relative bg-zinc-900 rounded-[4rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.5)] flex flex-col lg:flex-row items-stretch">
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="max-w-6xl mx-auto">
 
-            <div class="p-12 md:p-20 lg:w-2/3 relative z-10">
-              <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-full mb-8">
-                <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                <span class="text-[10px] font-black uppercase tracking-[0.3em] text-green-500">Expansão de Frota 2026</span>
-              </div>
+        <div class="relative bg-zinc-950 rounded-[3rem] md:rounded-[5rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,36,20,0.4)] flex flex-col lg:flex-row items-stretch border border-white/5">
 
-              <h2 class="text-5xl md:text-7xl font-black text-white italic leading-[0.85] tracking-tighter mb-8">
-                SEU PATRIMÔNIO <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-amber-500">GERANDO VALOR.</span>
-              </h2>
-
-              <p class="text-zinc-400 text-lg md:text-xl font-medium max-w-xl mb-12 leading-relaxed">
-                Não deixe seu ativo depreciar parado. Fale com nossos especialistas e descubra como o modelo de<span class="text-white italic"> negócio </span>que  entrega rentabilidade e segurança real.
-              </p>
-
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-6 pt-10 border-t border-white/5">
-                <div v-for="g in garantias" :key="g" class="flex items-center gap-3">
-                  <div class="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center">
-                    <Check class="w-3 h-3 text-green-500" />
-                  </div>
-                  <span class="text-[10px] font-black uppercase tracking-widest text-slate-300">{{ g }}</span>
-                </div>
-              </div>
+          <div class="p-10 md:p-20 lg:w-2/3 relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-8">
+              <span class="w-2 h-2 bg-emerald-500 rounded-full animate-ping"></span>
+              <span class="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-400">Oportunidade de Mercado</span>
             </div>
 
-            <div class="lg:w-1/3 bg-green-600 flex flex-col items-center justify-center p-12 relative overflow-hidden group">
-              <div class="absolute inset-0 bg-zinc-950 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
+            <h2 class="text-5xl md:text-7xl font-black text-white italic leading-[0.85] tracking-tighter mb-8">
+              FALE COM NOSSA EQUIPE E TORNE-SE UM <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-white to-amber-500">
+                INVESTIDOR L.A.
+              </span>
+            </h2>
 
-              <div class="relative z-10 text-center">
-                <div class="mb-8 flex justify-center">
-                  <div class="w-20 h-20 rounded-full bg-zinc-900 flex items-center justify-center group-hover:bg-green-600 transition-colors duration-500 shadow-2xl">
-                    <component :is="MessageCircle" class="w-10 h-10 text-green-500 group-hover:text-zinc-900 transition-colors" />
-                  </div>
+            <p class="text-zinc-400 text-lg md:text-xl font-medium max-w-xl mb-12 leading-relaxed italic">
+              O próximo passo para a sua <span class="text-white">liberdade financeira</span> começa com uma conversa. Estamos prontos para gerir seu patrimônio com excelência.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-10 border-t border-white/10">
+              <div v-for="g in garantias" :key="g" class="flex items-center gap-3 group/item">
+                <div class="w-6 h-6 rounded-full bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20 group-hover/item:bg-emerald-500 transition-colors">
+                  <Check class="w-3 h-3 text-emerald-500 group-hover/item:text-white" />
                 </div>
-
-                <a href="https://wa.me/5579999999999?text=Quero+uma+simulação+de+investimento"
-                   target="_blank"
-                   class="block">
-                  <span class="block text-[11px] font-black uppercase tracking-[0.4em] text-zinc-900 group-hover:text-green-500 mb-2 transition-colors">Solicitar</span>
-                  <span class="text-3xl font-black uppercase italic leading-none text-zinc-900 group-hover:text-white transition-colors">Simulação <br> de Ganhos</span>
-                </a>
-
-                <p class="mt-8 text-[9px] font-black uppercase tracking-widest text-zinc-800 group-hover:text-slate-400 transition-colors">
-                  Resposta imediata via WhatsApp
-                </p>
+                <span class="text-[10px] font-black uppercase tracking-widest text-zinc-300 group-hover/item:text-white transition-colors">{{ g }}</span>
               </div>
-
-              <ArrowRight class="absolute bottom-10 right-10 w-12 h-12 text-zinc-900/20 group-hover:text-green-500/20 -rotate-45 transition-all group-hover:rotate-0" />
             </div>
-
           </div>
 
-          <div class="mt-12 flex flex-col md:flex-row items-center justify-between px-10 gap-6">
-            <div class="flex items-center gap-6">
-              <div class="text-center md:text-left">
-                <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest">Sede Administrativa</span>
-                <p class="text-sm font-bold text-slate-900">Aracaju, Sergipe</p>
+          <a href="https://wa.me/5579999094631?text=Olá!%20Gostaria%20de%20me%20tornar%20um%20investidor%20L.A%20e%20falar%20com%20a%20equipe."
+             target="_blank"
+             class="lg:w-1/3 bg-emerald-600 flex flex-col items-center justify-center p-12 relative overflow-hidden group transition-all duration-500 hover:bg-emerald-500">
+
+            <div class="absolute inset-0 bg-zinc-900 translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
+
+            <div class="relative z-10 text-center">
+              <div class="mb-8 flex justify-center">
+                <div class="w-24 h-24 rounded-3xl bg-zinc-900 flex items-center justify-center group-hover:bg-emerald-500 transition-all duration-500 shadow-2xl group-hover:rotate-12">
+                  <MessageCircle class="w-12 h-12 text-emerald-500 group-hover:text-white transition-colors" />
+                </div>
               </div>
-              <div class="h-8 w-[1px] bg-slate-200 hidden md:block"></div>
-              <div class="text-center md:text-left">
-                <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest">Contatos Oficiais</span>
-                <p class="text-sm font-bold text-slate-900"></p>
+
+              <span class="block text-[11px] font-black uppercase tracking-[0.5em] text-zinc-900 group-hover:text-emerald-400 mb-4 transition-colors">Iniciar Conversa</span>
+              <span class="text-3xl md:text-4xl font-black uppercase italic leading-none text-zinc-900 group-hover:text-white transition-colors">
+                Quero ser <br> Investidor
+              </span>
+
+              <div class="mt-10 flex items-center justify-center gap-2 text-zinc-800 group-hover:text-zinc-400 transition-colors">
+                <span class="text-[9px] font-black uppercase tracking-widest">Atendimento Humano</span>
+                <ArrowRight class="w-4 h-4" />
               </div>
             </div>
-            <p class="text-[9px] font-black text-zinc-300 uppercase tracking-[0.3em]">LA Administração e Locação © 2026</p>
-          </div>
+
+            <ArrowRight class="absolute bottom-10 right-10 w-20 h-20 text-black/10 group-hover:text-emerald-500/10 -rotate-45 transition-all group-hover:translate-x-4 group-hover:-translate-y-4" />
+          </a>
 
         </div>
+
+        <div class="mt-16 flex flex-col md:flex-row items-center justify-between px-10 gap-8">
+          <div class="flex flex-wrap justify-center md:justify-start items-center gap-8">
+            <div>
+              <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest mb-1">Sede Administrativa</span>
+              <p class="text-sm font-bold text-slate-900 italic">Aracaju, Sergipe</p>
+            </div>
+            <div class="h-8 w-[1px] bg-slate-200 hidden md:block"></div>
+            <div>
+              <span class="block text-[10px] font-black text-zinc-400 uppercase tracking-widest mb-1">Horário de Atendimento</span>
+              <p class="text-sm font-bold text-slate-900 italic">Segunda a Sexta, 08h às 18h</p>
+            </div>
+          </div>
+
+          <div class="text-center md:text-right">
+            <p class="text-[10px] font-black text-emerald-800 uppercase tracking-[0.4em]">LA Administração e Locação © 2026</p>
+            <p class="text-[9px] text-zinc-400 mt-1 uppercase tracking-widest font-bold">Gestão Profissional de Ativos</p>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </a>
   </section>
 </template>
 
@@ -93,15 +92,16 @@
 import { Check, MessageCircle, ArrowRight } from 'lucide-vue-next'
 
 const garantias = [
-  "Gestão Jurídica",
-  "Risco Calculado",
-  "Liquidez do Ativo"
+  "Suporte Operacional",
+  "Gestão de Contratos",
+  "Máximo Retorno"
 ]
 </script>
 
 <style scoped>
-/* Transição suave para o efeito de preenchimento do botão lateral */
-.group:hover {
-  cursor: pointer;
+/* Tipografia ultra-focada */
+h2 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 </style>

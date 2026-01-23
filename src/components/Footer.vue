@@ -41,7 +41,7 @@
             <h3 class="text-[10px] font-black uppercase tracking-[0.2em] text-amber-500 mb-6">Acesso</h3>
             <ul class="space-y-4">
               <li>
-                <router-link to="/" class="text-gray-400 hover:text-green-500 transition-colors text-xs font-bold uppercase">Portal do Motorista</router-link>
+                <router-link to="/" class="text-gray-400 hover:text-green-500 transition-colors text-xs font-bold uppercase">Portal do Motorista L.A.</router-link>
               </li>
               <li>
                 <a href="#depoimentos" class="text-gray-400 hover:text-green-500 transition-colors text-xs font-bold uppercase">Depoimentos</a>
@@ -57,7 +57,7 @@
             <ul class="space-y-4">
               <li>
                 <router-link to="/portal-investidor" class="text-gray-400 hover:text-green-500 transition-colors text-xs font-bold uppercase italic">
-                  Portal do Investidor
+                  Portal do Investidor L.A.
                 </router-link>
               </li>
               <li>
@@ -115,7 +115,7 @@ const menuLinks = computed(() => {
     ? [
         { label: 'Modelo de repasse', href: '#modelo-repasse' },
         { label: 'Como funciona', href: '#como-funciona' },
-        { label: 'Seja um investidor', href: '#contato-investidor' },
+        { label: 'Seja um investidor L.A.', href: '#contato-investidor' },
       ]
     : [
         { label: 'Como Funciona', href: '#como-funciona' },

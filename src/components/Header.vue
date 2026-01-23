@@ -29,7 +29,7 @@
           <template v-if="isPortalInvestidor">
             <router-link to="/" class="hidden md:flex items-center gap-2 text-gray-500 hover:text-white transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-              <span class="text-[10px] font-black uppercase tracking-widest">Portal do Motorista</span>
+              <span class="text-[10px] font-black uppercase tracking-widest">Portal do Motorista L.A.</span>
             </router-link>
             <div class="h-6 w-[1px] bg-white/10 hidden md:block"></div>
 
@@ -51,7 +51,7 @@
           <template v-else>
             <router-link to="/portal-investidor" class="hidden md:flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-              <span class="text-[10px] font-black uppercase tracking-widest">Portal do Investidor</span>
+              <span class="text-[10px] font-black uppercase tracking-widest">Portal do Investidor L.A.</span>
             </router-link>
             <div class="h-6 w-[1px] bg-white/10 hidden md:block"></div>
             <a href="https://wa.me/5579999094631?text=Olá!+Gostaria+de+reservar+um+veículo." target="_blank" class="bg-green-500 hover:bg-white text-black px-6 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 flex items-center gap-2">
@@ -135,10 +135,10 @@ const currentLinks = computed(() => {
     ? [
         { label: 'Modelo de repasse', href: '#modelo-repasse' },
         { label: 'Como funciona', href: '#como-funciona' },
-        { label: 'Seja um investidor', href: '#contato-investidor' },
+        { label: 'Seja um investidor LA', href: '#contato-investidor' },
       ]
     : [
-        { label: 'Área do motorista', href: '#motorista' },
+        { label: 'Área do motorista LA', href: '#motorista' },
         { label: 'Como Funciona', href: '#como-funciona' },
         { label: 'Benefícios', href: '#beneficios' },
         { label: 'Depoimentos', href: '#depoimentos' },
