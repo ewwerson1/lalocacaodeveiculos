@@ -38,7 +38,7 @@
 
 
 
-          <h1 class="text-5xl md:text-[84px] font-black text-yellow-500 leading-[0.85] tracking-tighter mb-10">
+          <h1 class="text-5xl md:text-[84px] font-black  leading-[0.85] text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-300 tracking-tighter mb-10">
 
              Seu investimento aliado à gestão<br>
 
