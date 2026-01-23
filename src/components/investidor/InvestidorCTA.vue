@@ -15,7 +15,7 @@
             </div>
 
             <h2 class="text-5xl md:text-7xl text-transparent bg-clip-text  bg-gradient-to-r from-green-400 via-green-300 to-amber-500 font-black italic leading-[0.85] tracking-tighter mb-8">
-              Fale com nossa equipe e se torne um <br>
+              Fale com nossa equipe e torne-se um <br>
               <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-yellow-400 to-amber-500">
                 investidor L.A.
               </span>
@@ -50,7 +50,7 @@
 
               <span class="block text-[11px] font-black  tracking-[0.5em] text-zinc-900 group-hover:text-green-400 mb-4 transition-colors">Iniciar Conversa</span>
               <span class="text-3xl md:text-4xl font-black  italic leading-none text-zinc-900 group-hover:text-white transition-colors">
-                Quero ser <br> Investidor
+                Quero ser <br> Investidor L.A.
               </span>
 
               <div class="mt-10 flex items-center justify-center gap-2 text-zinc-800 group-hover:text-zinc-400 transition-colors">

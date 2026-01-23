@@ -61,7 +61,7 @@
                     <Shield class="w-8 h-8 text-emerald-600 group-hover/item:text-white" />
                   </div>
                   <div class="text-center md:text-left">
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-emerald-700 transition-colors">
+                    <h3 class="text-4xl md:text-4xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-emerald-700 transition-colors">
                       Elan Arimateia
                     </h3>
                     <p class="text-emerald-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Segurança Pública • Sócio Fundador</p>
@@ -74,7 +74,7 @@
                     <Gavel class="w-8 h-8 text-amber-600 group-hover/item:text-white" />
                   </div>
                   <div class="text-center md:text-left">
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-amber-600 transition-colors">
+                    <h3 class="text-4xl md:text-4xl font-black text-slate-900 italic leading-none tracking-tighter group-hover/item:text-amber-600 transition-colors">
                       Marcel Lima
                     </h3>
                     <p class="text-amber-600 font-black text-[10px] uppercase mt-3 tracking-[0.2em]">Jurídico • Sócio Fundador</p>
